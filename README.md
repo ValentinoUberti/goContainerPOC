@@ -1,7 +1,7 @@
 # goContainerPOC
 POC by Lix Rice @DockerCon2017
 
-This code is made by Liz Rice during the DockerCon 2017 and slightly edited by Valentino Uberti.
+This code was made by Liz Rice during the DockerCon 2017 and slightly edited by Valentino Uberti.
 It's a POC for creating a basic containerized application using golang.
 
 Please watch the video first:
