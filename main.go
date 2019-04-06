@@ -31,9 +31,9 @@ These files will be mounted in the container root
 */
 
 const (
-	rootfs            = "/home/vale/projects/gocontainer/rootfs/quux" //Change this according to your directory
-	containerHostname = "container"                                   //Container host name, change if you want
-	cgroupsDirectory  = "/sys/fs/cgroup"                              //Host cgroup directory
+	rootfs            = "/home/vale/Documents/goContainerPOC/rootfs/quux" //Change this according to your directory
+	containerHostname = "container"                                       //Container host name, change if you want
+	cgroupsDirectory  = "/sys/fs/cgroup"                                  //Host cgroup directory
 	pidsDirectory     = "vale"
 )
 
@@ -86,9 +86,13 @@ func child() {
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 
+	log.Println("Setting container hostname")
 	must(syscall.Sethostname([]byte(containerHostname)))
+	log.Println("Changing container root directory")
 	must(syscall.Chroot(rootfs))
 	must(os.Chdir("/"))
+
+	log.Println("Mounting container proc filesystem")
 	must(syscall.Mount("proc", "proc", "proc", 0, ""))
 
 	must(cmd.Run())
@@ -109,6 +113,7 @@ func cg() {
 	// Removes the new cgroup in place after the container exits
 	must(ioutil.WriteFile(filepath.Join(pids, pidsDirectory+"/notify_on_release"), []byte("1"), 0700))
 	must(ioutil.WriteFile(filepath.Join(pids, pidsDirectory+"/cgroup.procs"), []byte(strconv.Itoa(os.Getpid())), 0700))
+	log.Println("Finished cgroups creation")
 }
 
 //Error checking, panic on error
