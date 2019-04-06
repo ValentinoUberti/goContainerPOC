@@ -32,19 +32,29 @@ Example:
 
 #sudo go run main.go run /bin/bash
 
-2019/04/06 16:20:51 Calling parent
+2019/04/06 16:59:44 Calling parent
 
-2019/04/06 16:20:51 Creating child process with kernel namespaces for running [/bin/bash]
+2019/04/06 16:59:44 Creating child process with kernel namespaces for running [/bin/bash] 
 
-2019/04/06 16:20:51 Calling child
+2019/04/06 16:59:44 Calling child
 
-2019/04/06 16:20:51 Running [/bin/bash] in containerized child
+2019/04/06 16:59:44 Running [/bin/bash] in containerized child
+
+2019/04/06 16:59:44 Finished cgroups creation
+
+2019/04/06 16:59:44 Setting container hostname
+
+2019/04/06 16:59:44 Changing container root directory
+
+2019/04/06 16:59:44 Mounting container proc filesystem
 
 root@container:/# hostname
 
 container
 
-root@container:/# 
+root@container:/#
+
+
 
 
 
