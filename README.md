@@ -28,6 +28,19 @@ If you have some issue using mkosi, use the rootfs provided under /rootfs/quux
 After cloning this project, open main.go and update at least the rootfs const with your directory
 
 
+Example:
+
+#sudo go run main.go run /bin/bash
+
+--- Calling parent
+--- Creating child process with kernel namespaces for running [/bin/bash] 
+--- Calling child
+--- Running [/bin/bash] in containerized child
+--- root@container:/# hostname
+--- container <-- this hostname came from containerHostname const
+--- root@container:/# 
+
+
      
 
 
