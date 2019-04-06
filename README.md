@@ -32,13 +32,24 @@ Example:
 
 #sudo go run main.go run /bin/bash
 
---- Calling parent
---- Creating child process with kernel namespaces for running [/bin/bash] 
---- Calling child
---- Running [/bin/bash] in containerized child
---- root@container:/# hostname
---- container <-- this hostname came from containerHostname const
---- root@container:/# 
+2019/04/06 16:20:51 Calling parent
+
+2019/04/06 16:20:51 Creating child process with kernel namespaces for running [/bin/bash]
+
+2019/04/06 16:20:51 Calling child
+
+2019/04/06 16:20:51 Running [/bin/bash] in containerized child
+
+root@container:/# hostname
+
+container
+
+root@container:/# 
+
+
+
+
+
 
 
      
