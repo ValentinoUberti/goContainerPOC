@@ -1,0 +1,5 @@
+
+Start-Date: 2019-04-06  13:22:35
+Commandline: /usr/bin/apt-get --assume-yes --no-install-recommends install dbus libpam-systemd
+Install: libdbus-1-3:amd64 (1.10.6-1ubuntu3, automatic), dbus:amd64 (1.10.6-1ubuntu3), libexpat1:amd64 (2.1.0-7, automatic), libpam-systemd:amd64 (229-4ubuntu4), libcap-ng0:amd64 (0.7.7-1, automatic)
+End-Date: 2019-04-06  13:22:37

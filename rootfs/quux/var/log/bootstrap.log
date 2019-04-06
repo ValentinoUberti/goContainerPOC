@@ -1,0 +1,2462 @@
+--2019-04-06 13:19:56--  http://archive.ubuntu.com/ubuntu/dists/xenial/InRelease
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.152, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 246846 (241K)
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root/var/lib/apt/lists/partial/debootstrap.invalid_dists_xenial_InRelease'
+
+     0K .......... .......... .......... .......... .......... 20%  264K 1s
+    50K .......... .......... .......... .......... .......... 41%  742K 0s
+   100K .......... .......... .......... .......... .......... 62% 1,05M 0s
+   150K .......... .......... .......... .......... .......... 82% 1,97M 0s
+   200K .......... .......... .......... .......... .         100% 1,10M=0,4s
+
+2019-04-06 13:19:57 (661 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root/var/lib/apt/lists/partial/debootstrap.invalid_dists_xenial_InRelease' saved [246846/246846]
+
+gpgv: Signature made ven 22 apr 2016 01:25:09 CEST
+gpgv:                using DSA key 40976EAF437D05B5
+gpgv: Can't check signature: No public key
+gpgv: Signature made ven 22 apr 2016 01:25:09 CEST
+gpgv:                using RSA key 3B4FE6ACC0B21F32
+gpgv: Good signature from "Ubuntu Archive Automatic Signing Key (2012) <ftpmaster@ubuntu.com>"
+--2019-04-06 13:19:58--  http://archive.ubuntu.com/ubuntu/dists/xenial/main/binary-amd64/Packages.xz
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.152, 91.189.88.149, 91.189.88.162, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.152|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1200680 (1,1M) [application/x-xz]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root/var/lib/apt/lists/partial/debootstrap.invalid_dists_xenial_main_binary-amd64_Packages.xz'
+
+     0K .......... .......... .......... .......... ..........  4%  390K 3s
+    50K .......... .......... .......... .......... ..........  8%  916K 2s
+   100K .......... .......... .......... .......... .......... 12% 1,73M 1s
+   150K .......... .......... .......... .......... .......... 17% 1,33M 1s
+   200K .......... .......... .......... .......... .......... 21% 4,19M 1s
+   250K .......... .......... .......... .......... .......... 25% 2,18M 1s
+   300K .......... .......... .......... .......... .......... 29% 2,13M 1s
+   350K .......... .......... .......... .......... .......... 34% 2,11M 1s
+   400K .......... .......... .......... .......... .......... 38% 2,20M 1s
+   450K .......... .......... .......... .......... .......... 42% 1,34M 1s
+   500K .......... .......... .......... .......... .......... 46% 5,21M 0s
+   550K .......... .......... .......... .......... .......... 51% 2,13M 0s
+   600K .......... .......... .......... .......... .......... 55% 2,16M 0s
+   650K .......... .......... .......... .......... .......... 59% 2,11M 0s
+   700K .......... .......... .......... .......... .......... 63% 2,12M 0s
+   750K .......... .......... .......... .......... .......... 68% 2,21M 0s
+   800K .......... .......... .......... .......... .......... 72% 2,02M 0s
+   850K .......... .......... .......... .......... .......... 76% 2,13M 0s
+   900K .......... .......... .......... .......... .......... 81% 2,13M 0s
+   950K .......... .......... .......... .......... .......... 85% 2,13M 0s
+  1000K .......... .......... .......... .......... .......... 89% 2,13M 0s
+  1050K .......... .......... .......... .......... .......... 93% 2,11M 0s
+  1100K .......... .......... .......... .......... .......... 98% 2,21M 0s
+  1150K .......... .......... ..                              100% 2,14M=0,7s
+
+2019-04-06 13:19:58 (1,68 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root/var/lib/apt/lists/partial/debootstrap.invalid_dists_xenial_main_binary-amd64_Packages.xz' saved [1200680/1200680]
+
+--2019-04-06 13:20:02--  http://archive.ubuntu.com/ubuntu/pool/main/a/adduser/adduser_3.113+nmu3ubuntu4_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 161698 (158K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/adduser_3.113+nmu3ubuntu4_all.deb'
+
+     0K .......... .......... .......... .......... .......... 31%  377K 0s
+    50K .......... .......... .......... .......... .......... 63%  870K 0s
+   100K .......... .......... .......... .......... .......... 94% 1,66M 0s
+   150K .......                                               100% 1,96M=0,2s
+
+2019-04-06 13:20:02 (706 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/adduser_3.113+nmu3ubuntu4_all.deb' saved [161698/161698]
+
+--2019-04-06 13:20:02--  http://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.2.10ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1034216 (1010K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/apt_1.2.10ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  4%  403K 2s
+    50K .......... .......... .......... .......... ..........  9%  899K 2s
+   100K .......... .......... .......... .......... .......... 14% 1,74M 1s
+   150K .......... .......... .......... .......... .......... 19% 1,91M 1s
+   200K .......... .......... .......... .......... .......... 24% 2,16M 1s
+   250K .......... .......... .......... .......... .......... 29% 2,11M 1s
+   300K .......... .......... .......... .......... .......... 34% 2,15M 1s
+   350K .......... .......... .......... .......... .......... 39% 2,13M 0s
+   400K .......... .......... .......... .......... .......... 44% 2,18M 0s
+   450K .......... .......... .......... .......... .......... 49% 2,14M 0s
+   500K .......... .......... .......... .......... .......... 54% 2,15M 0s
+   550K .......... .......... .......... .......... .......... 59% 2,11M 0s
+   600K .......... .......... .......... .......... .......... 64% 2,13M 0s
+   650K .......... .......... .......... .......... .......... 69% 2,16M 0s
+   700K .......... .......... .......... .......... .......... 74% 2,08M 0s
+   750K .......... .......... .......... .......... .......... 79% 2,20M 0s
+   800K .......... .......... .......... .......... .......... 84% 2,15M 0s
+   850K .......... .......... .......... .......... .......... 89% 2,10M 0s
+   900K .......... .......... .......... .......... .......... 94% 2,14M 0s
+   950K .......... .......... .......... .......... .......... 99% 2,16M 0s
+  1000K .........                                             100% 2,15M=0,6s
+
+2019-04-06 13:20:03 (1,64 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/apt_1.2.10ubuntu1_amd64.deb' saved [1034216/1034216]
+
+--2019-04-06 13:20:03--  http://archive.ubuntu.com/ubuntu/pool/main/b/base-files/base-files_9.4ubuntu4_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 68664 (67K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/base-files_9.4ubuntu4_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 74%  407K 0s
+    50K .......... .......                                    100%  835K=0,1s
+
+2019-04-06 13:20:03 (468 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/base-files_9.4ubuntu4_amd64.deb' saved [68664/68664]
+
+--2019-04-06 13:20:03--  http://archive.ubuntu.com/ubuntu/pool/main/b/base-passwd/base-passwd_3.5.39_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51888 (51K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/base-passwd_3.5.39_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 98%  406K 0s
+    50K                                                       100% 1281G=0,1s
+
+2019-04-06 13:20:04 (411 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/base-passwd_3.5.39_amd64.deb' saved [51888/51888]
+
+--2019-04-06 13:20:04--  http://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_4.3-14ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 581710 (568K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/bash_4.3-14ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  8%  396K 1s
+    50K .......... .......... .......... .......... .......... 17%  902K 1s
+   100K .......... .......... .......... .......... .......... 26% 1,70M 1s
+   150K .......... .......... .......... .......... .......... 35% 2,00M 0s
+   200K .......... .......... .......... .......... .......... 44% 2,13M 0s
+   250K .......... .......... .......... .......... .......... 52% 2,13M 0s
+   300K .......... .......... .......... .......... .......... 61% 2,13M 0s
+   350K .......... .......... .......... .......... .......... 70% 2,15M 0s
+   400K .......... .......... .......... .......... .......... 79% 2,20M 0s
+   450K .......... .......... .......... .......... .......... 88% 2,13M 0s
+   500K .......... .......... .......... .......... .......... 96% 2,13M 0s
+   550K .......... ........                                   100% 2,17M=0,4s
+
+2019-04-06 13:20:04 (1,38 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/bash_4.3-14ubuntu1_amd64.deb' saved [581710/581710]
+
+--2019-04-06 13:20:04--  http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/bsdutils_2.27.1-6ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51840 (51K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/bsdutils_1%3a2.27.1-6ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 98%  379K 0s
+    50K                                                       100% 1192G=0,1s
+
+2019-04-06 13:20:05 (384 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/bsdutils_1%3a2.27.1-6ubuntu3_amd64.deb' saved [51840/51840]
+
+--2019-04-06 13:20:05--  http://archive.ubuntu.com/ubuntu/pool/main/c/coreutils/coreutils_8.25-2ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1174720 (1,1M) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/coreutils_8.25-2ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  4%  389K 3s
+    50K .......... .......... .......... .......... ..........  8%  871K 2s
+   100K .......... .......... .......... .......... .......... 13% 1,61M 1s
+   150K .......... .......... .......... .......... .......... 17% 1,57M 1s
+   200K .......... .......... .......... .......... .......... 21% 3,10M 1s
+   250K .......... .......... .......... .......... .......... 26% 2,14M 1s
+   300K .......... .......... .......... .......... .......... 30% 2,11M 1s
+   350K .......... .......... .......... .......... .......... 34% 2,14M 1s
+   400K .......... .......... .......... .......... .......... 39% 2,20M 1s
+   450K .......... .......... .......... .......... .......... 43% 1,49M 1s
+   500K .......... .......... .......... .......... .......... 47% 3,73M 0s
+   550K .......... .......... .......... .......... .......... 52% 2,15M 0s
+   600K .......... .......... .......... .......... .......... 56% 2,13M 0s
+   650K .......... .......... .......... .......... .......... 61% 2,11M 0s
+   700K .......... .......... .......... .......... .......... 65% 2,15M 0s
+   750K .......... .......... .......... .......... .......... 69% 1,41M 0s
+   800K .......... .......... .......... .......... .......... 74% 4,59M 0s
+   850K .......... .......... .......... .......... .......... 78% 2,12M 0s
+   900K .......... .......... .......... .......... .......... 82% 2,03M 0s
+   950K .......... .......... .......... .......... .......... 87% 2,13M 0s
+  1000K .......... .......... .......... .......... .......... 91% 2,13M 0s
+  1050K .......... .......... .......... .......... .......... 95% 1,39M 0s
+  1100K .......... .......... .......... .......... .......   100% 5,37M=0,7s
+
+2019-04-06 13:20:05 (1,66 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/coreutils_8.25-2ubuntu2_amd64.deb' saved [1174720/1174720]
+
+--2019-04-06 13:20:05--  http://archive.ubuntu.com/ubuntu/pool/main/d/dash/dash_0.5.8-2.1ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 103722 (101K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/dash_0.5.8-2.1ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 49%  360K 0s
+    50K .......... .......... .......... .......... .......... 98%  771K 0s
+   100K .                                                     100% 1,24M=0,2s
+
+2019-04-06 13:20:06 (495 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/dash_0.5.8-2.1ubuntu2_amd64.deb' saved [103722/103722]
+
+--2019-04-06 13:20:06--  http://archive.ubuntu.com/ubuntu/pool/main/d/debconf/debconf_1.5.58ubuntu1_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 135848 (133K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/debconf_1.5.58ubuntu1_all.deb'
+
+     0K .......... .......... .......... .......... .......... 37%  412K 0s
+    50K .......... .......... .......... .......... .......... 75%  953K 0s
+   100K .......... .......... .......... ..                   100% 1,68M=0,2s
+
+2019-04-06 13:20:06 (688 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/debconf_1.5.58ubuntu1_all.deb' saved [135848/135848]
+
+--2019-04-06 13:20:06--  http://archive.ubuntu.com/ubuntu/pool/main/d/debianutils/debianutils_4.7_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 85428 (83K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/debianutils_4.7_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 59%  221K 0s
+    50K .......... .......... .......... ...                  100%  361K=0,3s
+
+2019-04-06 13:20:07 (261 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/debianutils_4.7_amd64.deb' saved [85428/85428]
+
+--2019-04-06 13:20:07--  http://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.3-3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 155710 (152K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/diffutils_1%3a3.3-3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 32%  387K 0s
+    50K .......... .......... .......... .......... .......... 65%  886K 0s
+   100K .......... .......... .......... .......... .......... 98% 1,71M 0s
+   150K ..                                                    100% 1,67M=0,2s
+
+2019-04-06 13:20:07 (705 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/diffutils_1%3a3.3-3_amd64.deb' saved [155710/155710]
+
+--2019-04-06 13:20:07--  http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.18.4ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2085190 (2,0M) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/dpkg_1.18.4ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  2%  399K 5s
+    50K .......... .......... .......... .......... ..........  4%  907K 3s
+   100K .......... .......... .......... .......... ..........  7% 1,71M 3s
+   150K .......... .......... .......... .......... ..........  9% 1,95M 2s
+   200K .......... .......... .......... .......... .......... 12% 2,11M 2s
+   250K .......... .......... .......... .......... .......... 14% 2,17M 2s
+   300K .......... .......... .......... .......... .......... 17% 2,11M 1s
+   350K .......... .......... .......... .......... .......... 19% 2,13M 1s
+   400K .......... .......... .......... .......... .......... 22% 2,20M 1s
+   450K .......... .......... .......... .......... .......... 24% 2,14M 1s
+   500K .......... .......... .......... .......... .......... 27% 2,13M 1s
+   550K .......... .......... .......... .......... .......... 29% 2,13M 1s
+   600K .......... .......... .......... .......... .......... 31% 2,11M 1s
+   650K .......... .......... .......... .......... .......... 34% 2,15M 1s
+   700K .......... .......... .......... .......... .......... 36% 2,13M 1s
+   750K .......... .......... .......... .......... .......... 39% 2,18M 1s
+   800K .......... .......... .......... .......... .......... 41% 2,14M 1s
+   850K .......... .......... .......... .......... .......... 44% 2,13M 1s
+   900K .......... .......... .......... .......... .......... 46% 2,01M 1s
+   950K .......... .......... .......... .......... .......... 49% 2,13M 1s
+  1000K .......... .......... .......... .......... .......... 51% 2,16M 1s
+  1050K .......... .......... .......... .......... .......... 54% 2,10M 1s
+  1100K .......... .......... .......... .......... .......... 56% 2,21M 1s
+  1150K .......... .......... .......... .......... .......... 58% 2,12M 0s
+  1200K .......... .......... .......... .......... .......... 61% 2,13M 0s
+  1250K .......... .......... .......... .......... .......... 63% 2,09M 0s
+  1300K .......... .......... .......... .......... .......... 66% 1,49M 0s
+  1350K .......... .......... .......... .......... .......... 68% 1,30M 0s
+  1400K .......... .......... .......... .......... .......... 71%  873K 0s
+  1450K .......... .......... .......... .......... .......... 73% 1,06M 0s
+  1500K .......... .......... .......... .......... .......... 76% 1,39M 0s
+  1550K .......... .......... .......... .......... .......... 78% 4,64M 0s
+  1600K .......... .......... .......... .......... .......... 81% 2,14M 0s
+  1650K .......... .......... .......... .......... .......... 83% 2,12M 0s
+  1700K .......... .......... .......... .......... .......... 85% 2,00M 0s
+  1750K .......... .......... .......... .......... .......... 88% 2,05M 0s
+  1800K .......... .......... .......... .......... .......... 90% 1,42M 0s
+  1850K .......... .......... .......... .......... .......... 93% 4,34M 0s
+  1900K .......... .......... .......... .......... .......... 95% 2,11M 0s
+  1950K .......... .......... .......... .......... .......... 98% 2,16M 0s
+  2000K .......... .......... .......... ......               100% 2,17M=1,2s
+
+2019-04-06 13:20:08 (1,72 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/dpkg_1.18.4ubuntu1_amd64.deb' saved [2085190/2085190]
+
+--2019-04-06 13:20:08--  http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fslibs_1.42.13-1ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 187558 (183K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/e2fslibs_1.42.13-1ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 27%  407K 0s
+    50K .......... .......... .......... .......... .......... 54%  985K 0s
+   100K .......... .......... .......... .......... .......... 81% 1,58M 0s
+   150K .......... .......... .......... ...                  100% 1,91M=0,2s
+
+2019-04-06 13:20:09 (828 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/e2fslibs_1.42.13-1ubuntu1_amd64.deb' saved [187558/187558]
+
+--2019-04-06 13:20:09--  http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.42.13-1ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 770638 (753K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/e2fsprogs_1.42.13-1ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  6%  414K 2s
+    50K .......... .......... .......... .......... .......... 13% 1013K 1s
+   100K .......... .......... .......... .......... .......... 19% 1,56M 1s
+   150K .......... .......... .......... .......... .......... 26% 1,95M 1s
+   200K .......... .......... .......... .......... .......... 33% 2,16M 1s
+   250K .......... .......... .......... .......... .......... 39% 2,12M 0s
+   300K .......... .......... .......... .......... .......... 46% 2,11M 0s
+   350K .......... .......... .......... .......... .......... 53% 2,16M 0s
+   400K .......... .......... .......... .......... .......... 59% 2,20M 0s
+   450K .......... .......... .......... .......... .......... 66% 2,11M 0s
+   500K .......... .......... .......... .......... .......... 73% 2,01M 0s
+   550K .......... .......... .......... .......... .......... 79% 2,29M 0s
+   600K .......... .......... .......... .......... .......... 86% 2,11M 0s
+   650K .......... .......... .......... .......... .......... 93% 2,16M 0s
+   700K .......... .......... .......... .......... .......... 99% 2,11M 0s
+   750K ..                                                    100% 4,93M=0,5s
+
+2019-04-06 13:20:09 (1,54 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/e2fsprogs_1.42.13-1ubuntu1_amd64.deb' saved [770638/770638]
+
+--2019-04-06 13:20:09--  http://archive.ubuntu.com/ubuntu/pool/main/f/findutils/findutils_4.6.0+git+20160126-2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 279560 (273K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/findutils_4.6.0+git+20160126-2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 18%  405K 1s
+    50K .......... .......... .......... .......... .......... 36%  952K 0s
+   100K .......... .......... .......... .......... .......... 54% 1,69M 0s
+   150K .......... .......... .......... .......... .......... 73% 1,98M 0s
+   200K .......... .......... .......... .......... .......... 91% 2,13M 0s
+   250K .......... .......... ...                             100% 2,17M=0,3s
+
+2019-04-06 13:20:10 (1,02 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/findutils_4.6.0+git+20160126-2_amd64.deb' saved [279560/279560]
+
+--2019-04-06 13:20:10--  http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-5/gcc-5-base_5.3.1-14ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16820 (16K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gcc-5-base_5.3.1-14ubuntu2_amd64.deb'
+
+     0K .......... ......                                     100%  271K=0,06s
+
+2019-04-06 13:20:10 (271 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gcc-5-base_5.3.1-14ubuntu2_amd64.deb' saved [16820/16820]
+
+--2019-04-06 13:20:10--  http://archive.ubuntu.com/ubuntu/pool/main/g/gccgo-6/gcc-6-base_6.0.1-0ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14308 (14K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gcc-6-base_6.0.1-0ubuntu1_amd64.deb'
+
+     0K .......... ...                                        100%  249K=0,06s
+
+2019-04-06 13:20:10 (249 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gcc-6-base_6.0.1-0ubuntu1_amd64.deb' saved [14308/14308]
+
+--2019-04-06 13:20:10--  http://archive.ubuntu.com/ubuntu/pool/main/g/gnupg/gnupg_1.4.20-1ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 625630 (611K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gnupg_1.4.20-1ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  8%  414K 1s
+    50K .......... .......... .......... .......... .......... 16%  963K 1s
+   100K .......... .......... .......... .......... .......... 24% 1,74M 1s
+   150K .......... .......... .......... .......... .......... 32% 1,95M 0s
+   200K .......... .......... .......... .......... .......... 40% 2,13M 0s
+   250K .......... .......... .......... .......... .......... 49% 2,13M 0s
+   300K .......... .......... .......... .......... .......... 57% 2,12M 0s
+   350K .......... .......... .......... .......... .......... 65% 2,00M 0s
+   400K .......... .......... .......... .......... .......... 73% 2,20M 0s
+   450K .......... .......... .......... .......... .......... 81% 2,13M 0s
+   500K .......... .......... .......... .......... .......... 90% 2,13M 0s
+   550K .......... .......... .......... .......... .......... 98% 2,15M 0s
+   600K ..........                                            100% 2,18M=0,4s
+
+2019-04-06 13:20:11 (1,44 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gnupg_1.4.20-1ubuntu3_amd64.deb' saved [625630/625630]
+
+--2019-04-06 13:20:11--  http://archive.ubuntu.com/ubuntu/pool/main/g/gnupg/gpgv_1.4.20-1ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 165282 (161K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gpgv_1.4.20-1ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 30%  400K 0s
+    50K .......... .......... .......... .......... .......... 61%  897K 0s
+   100K .......... .......... .......... .......... .......... 92% 1,71M 0s
+   150K .......... .                                          100% 1,50M=0,2s
+
+2019-04-06 13:20:11 (745 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gpgv_1.4.20-1ubuntu3_amd64.deb' saved [165282/165282]
+
+--2019-04-06 13:20:11--  http://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_2.24-1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 150588 (147K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/grep_2.24-1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 34%  411K 0s
+    50K .......... .......... .......... .......... .......... 68%  940K 0s
+   100K .......... .......... .......... .......... .......   100% 1,52M=0,2s
+
+2019-04-06 13:20:12 (718 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/grep_2.24-1_amd64.deb' saved [150588/150588]
+
+--2019-04-06 13:20:12--  http://archive.ubuntu.com/ubuntu/pool/main/g/gzip/gzip_1.6-4ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 87436 (85K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gzip_1.6-4ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 58%  409K 0s
+    50K .......... .......... .......... .....                100%  945K=0,2s
+
+2019-04-06 13:20:12 (534 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/gzip_1.6-4ubuntu1_amd64.deb' saved [87436/87436]
+
+--2019-04-06 13:20:12--  http://archive.ubuntu.com/ubuntu/pool/main/h/hostname/hostname_3.16ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11548 (11K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/hostname_3.16ubuntu2_amd64.deb'
+
+     0K .......... .                                          100%  549K=0,02s
+
+2019-04-06 13:20:12 (549 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/hostname_3.16ubuntu2_amd64.deb' saved [11548/11548]
+
+--2019-04-06 13:20:12--  http://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init_1.29ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4546 (4,4K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/init_1.29ubuntu1_amd64.deb'
+
+     0K ....                                                  100% 1000K=0,004s
+
+2019-04-06 13:20:12 (1000 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/init_1.29ubuntu1_amd64.deb' saved [4546/4546]
+
+--2019-04-06 13:20:12--  http://archive.ubuntu.com/ubuntu/pool/main/i/init-system-helpers/init-system-helpers_1.29ubuntu1_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 32100 (31K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/init-system-helpers_1.29ubuntu1_all.deb'
+
+     0K .......... .......... .......... .                    100%  376K=0,08s
+
+2019-04-06 13:20:13 (376 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/init-system-helpers_1.29ubuntu1_all.deb' saved [32100/32100]
+
+--2019-04-06 13:20:13--  http://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/initscripts_2.88dsf-59.3ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 24424 (24K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/initscripts_2.88dsf-59.3ubuntu2_amd64.deb'
+
+     0K .......... .......... ...                             100%  359K=0,07s
+
+2019-04-06 13:20:13 (359 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/initscripts_2.88dsf-59.3ubuntu2_amd64.deb' saved [24424/24424]
+
+--2019-04-06 13:20:13--  http://archive.ubuntu.com/ubuntu/pool/main/i/insserv/insserv_1.14.0-5ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 38182 (37K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/insserv_1.14.0-5ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......              100%  341K=0,1s
+
+2019-04-06 13:20:13 (341 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/insserv_1.14.0-5ubuntu3_amd64.deb' saved [38182/38182]
+
+--2019-04-06 13:20:13--  http://archive.ubuntu.com/ubuntu/pool/main/a/acl/libacl1_2.2.52-3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16114 (16K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libacl1_2.2.52-3_amd64.deb'
+
+     0K .......... .....                                      100%  279K=0,06s
+
+2019-04-06 13:20:13 (279 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libacl1_2.2.52-3_amd64.deb' saved [16114/16114]
+
+--2019-04-06 13:20:13--  http://archive.ubuntu.com/ubuntu/pool/main/a/apparmor/libapparmor1_2.10.95-0ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 31252 (31K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libapparmor1_2.10.95-0ubuntu2_amd64.deb'
+
+     0K .......... .......... ..........                      100%  340K=0,09s
+
+2019-04-06 13:20:14 (340 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libapparmor1_2.10.95-0ubuntu2_amd64.deb' saved [31252/31252]
+
+--2019-04-06 13:20:14--  http://archive.ubuntu.com/ubuntu/pool/main/a/apt/libapt-pkg5.0_1.2.10ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 695808 (680K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libapt-pkg5.0_1.2.10ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  7%  415K 2s
+    50K .......... .......... .......... .......... .......... 14%  956K 1s
+   100K .......... .......... .......... .......... .......... 22% 1,55M 1s
+   150K .......... .......... .......... .......... .......... 29% 1,84M 1s
+   200K .......... .......... .......... .......... .......... 36% 2,15M 0s
+   250K .......... .......... .......... .......... .......... 44% 2,17M 0s
+   300K .......... .......... .......... .......... .......... 51% 2,13M 0s
+   350K .......... .......... .......... .......... .......... 58% 2,22M 0s
+   400K .......... .......... .......... .......... .......... 66% 2,10M 0s
+   450K .......... .......... .......... .......... .......... 73% 2,21M 0s
+   500K .......... .......... .......... .......... .......... 80% 1,89M 0s
+   550K .......... .......... .......... .......... .......... 88% 2,50M 0s
+   600K .......... .......... .......... .......... .......... 95% 2,14M 0s
+   650K .......... .......... .........                       100% 2,23M=0,4s
+
+2019-04-06 13:20:14 (1,48 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libapt-pkg5.0_1.2.10ubuntu1_amd64.deb' saved [695808/695808]
+
+--2019-04-06 13:20:14--  http://archive.ubuntu.com/ubuntu/pool/main/a/attr/libattr1_2.4.47-2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9756 (9,5K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libattr1_1%3a2.4.47-2_amd64.deb'
+
+     0K .........                                             100%  860K=0,01s
+
+2019-04-06 13:20:14 (860 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libattr1_1%3a2.4.47-2_amd64.deb' saved [9756/9756]
+
+--2019-04-06 13:20:14--  http://archive.ubuntu.com/ubuntu/pool/main/a/audit/libaudit-common_2.4.5-1ubuntu2_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3884 (3,8K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libaudit-common_1%3a2.4.5-1ubuntu2_all.deb'
+
+     0K ...                                                   100%  556K=0,007s
+
+2019-04-06 13:20:15 (556 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libaudit-common_1%3a2.4.5-1ubuntu2_all.deb' saved [3884/3884]
+
+--2019-04-06 13:20:15--  http://archive.ubuntu.com/ubuntu/pool/main/a/audit/libaudit1_2.4.5-1ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 36226 (35K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libaudit1_1%3a2.4.5-1ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .....                100%  330K=0,1s
+
+2019-04-06 13:20:15 (330 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libaudit1_1%3a2.4.5-1ubuntu2_amd64.deb' saved [36226/36226]
+
+--2019-04-06 13:20:15--  http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/libblkid1_2.27.1-6ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 106728 (104K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libblkid1_2.27.1-6ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 47%  391K 0s
+    50K .......... .......... .......... .......... .......... 95%  905K 0s
+   100K ....                                                  100% 1,37M=0,2s
+
+2019-04-06 13:20:15 (560 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libblkid1_2.27.1-6ubuntu3_amd64.deb' saved [106728/106728]
+
+--2019-04-06 13:20:15--  http://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/libbz2-1.0_1.0.6-8_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 30834 (30K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libbz2-1.0_1.0.6-8_amd64.deb'
+
+     0K .......... .......... ..........                      100%  375K=0,08s
+
+2019-04-06 13:20:15 (375 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libbz2-1.0_1.0.6-8_amd64.deb' saved [30834/30834]
+
+--2019-04-06 13:20:15--  http://archive.ubuntu.com/ubuntu/pool/main/g/glibc/libc-bin_2.23-0ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 627490 (613K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libc-bin_2.23-0ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  8%  406K 1s
+    50K .......... .......... .......... .......... .......... 16%  623K 1s
+   100K .......... .......... .......... .......... .......... 24% 1,15M 1s
+   150K .......... .......... .......... .......... .......... 32% 2,59M 1s
+   200K .......... .......... .......... .......... .......... 40% 1,22M 0s
+   250K .......... .......... .......... .......... .......... 48% 2,06M 0s
+   300K .......... .......... .......... .......... .......... 57% 2,14M 0s
+   350K .......... .......... .......... .......... .......... 65% 1,45M 0s
+   400K .......... .......... .......... .......... .......... 73% 4,24M 0s
+   450K .......... .......... .......... .......... .......... 81% 2,13M 0s
+   500K .......... .......... .......... .......... .......... 89% 2,13M 0s
+   550K .......... .......... .......... .......... .......... 97% 2,13M 0s
+   600K .......... ..                                         100% 2,21M=0,5s
+
+2019-04-06 13:20:16 (1,27 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libc-bin_2.23-0ubuntu3_amd64.deb' saved [627490/627490]
+
+--2019-04-06 13:20:16--  http://archive.ubuntu.com/ubuntu/pool/main/g/glibc/libc6_2.23-0ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2583544 (2,5M) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libc6_2.23-0ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  1%  418K 6s
+    50K .......... .......... .......... .......... ..........  3%  969K 4s
+   100K .......... .......... .......... .......... ..........  5% 1,53M 3s
+   150K .......... .......... .......... .......... ..........  7% 1,92M 3s
+   200K .......... .......... .......... .......... ..........  9% 1,79M 2s
+   250K .......... .......... .......... .......... .......... 11% 2,74M 2s
+   300K .......... .......... .......... .......... .......... 13% 2,14M 2s
+   350K .......... .......... .......... .......... .......... 15% 2,18M 2s
+   400K .......... .......... .......... .......... .......... 17% 2,13M 2s
+   450K .......... .......... .......... .......... .......... 19% 2,18M 1s
+   500K .......... .......... .......... .......... .......... 21% 1,65M 1s
+   550K .......... .......... .......... .......... .......... 23% 3,14M 1s
+   600K .......... .......... .......... .......... .......... 25% 2,16M 1s
+   650K .......... .......... .......... .......... .......... 27% 2,10M 1s
+   700K .......... .......... .......... .......... .......... 29% 2,22M 1s
+   750K .......... .......... .......... .......... .......... 31% 2,12M 1s
+   800K .......... .......... .......... .......... .......... 33% 1,49M 1s
+   850K .......... .......... .......... .......... .......... 35% 3,95M 1s
+   900K .......... .......... .......... .......... .......... 37% 2,17M 1s
+   950K .......... .......... .......... .......... .......... 39% 2,13M 1s
+  1000K .......... .......... .......... .......... .......... 41% 2,20M 1s
+  1050K .......... .......... .......... .......... .......... 43% 2,13M 1s
+  1100K .......... .......... .......... .......... .......... 45% 1,32M 1s
+  1150K .......... .......... .......... .......... .......... 47% 5,87M 1s
+  1200K .......... .......... .......... .......... .......... 49% 2,15M 1s
+  1250K .......... .......... .......... .......... .......... 51% 2,16M 1s
+  1300K .......... .......... .......... .......... .......... 53% 2,16M 1s
+  1350K .......... .......... .......... .......... .......... 55% 2,19M 1s
+  1400K .......... .......... .......... .......... .......... 57% 2,09M 1s
+  1450K .......... .......... .......... .......... .......... 59% 2,23M 1s
+  1500K .......... .......... .......... .......... .......... 61% 2,13M 1s
+  1550K .......... .......... .......... .......... .......... 63% 2,14M 0s
+  1600K .......... .......... .......... .......... .......... 65% 2,20M 0s
+  1650K .......... .......... .......... .......... .......... 67% 2,13M 0s
+  1700K .......... .......... .......... .......... .......... 69% 2,18M 0s
+  1750K .......... .......... .......... .......... .......... 71% 2,14M 0s
+  1800K .......... .......... .......... .......... .......... 73% 2,20M 0s
+  1850K .......... .......... .......... .......... .......... 75% 2,11M 0s
+  1900K .......... .......... .......... .......... .......... 77% 2,19M 0s
+  1950K .......... .......... .......... .......... .......... 79% 2,13M 0s
+  2000K .......... .......... .......... .......... .......... 81% 2,10M 0s
+  2050K .......... .......... .......... .......... .......... 83% 2,07M 0s
+  2100K .......... .......... .......... .......... .......... 85% 2,30M 0s
+  2150K .......... .......... .......... .......... .......... 87% 1,39M 0s
+  2200K .......... .......... .......... .......... .......... 89%  870K 0s
+  2250K .......... .......... .......... .......... .......... 91% 1,18M 0s
+  2300K .......... .......... .......... .......... .......... 93%  237K 0s
+  2350K .......... .......... .......... .......... .......... 95% 4,17M 0s
+  2400K .......... .......... .......... .......... .......... 97% 35,6M 0s
+  2450K .......... .......... .......... .......... .......... 99% 68,9M 0s
+  2500K .......... .......... ..                              100% 63,2M=1,5s
+
+2019-04-06 13:20:18 (1,68 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libc6_2.23-0ubuntu3_amd64.deb' saved [2583544/2583544]
+
+--2019-04-06 13:20:18--  http://archive.ubuntu.com/ubuntu/pool/main/libc/libcap2/libcap2_2.24-12_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12862 (13K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libcap2_1%3a2.24-12_amd64.deb'
+
+     0K .......... ..                                         100%  579K=0,02s
+
+2019-04-06 13:20:18 (579 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libcap2_1%3a2.24-12_amd64.deb' saved [12862/12862]
+
+--2019-04-06 13:20:18--  http://archive.ubuntu.com/ubuntu/pool/main/libc/libcap2/libcap2-bin_2.24-12_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 20212 (20K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libcap2-bin_1%3a2.24-12_amd64.deb'
+
+     0K .......... .........                                  100%  307K=0,06s
+
+2019-04-06 13:20:18 (307 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libcap2-bin_1%3a2.24-12_amd64.deb' saved [20212/20212]
+
+--2019-04-06 13:20:18--  http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/libcomerr2_1.42.13-1ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 65662 (64K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libcomerr2_1.42.13-1ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 77%  409K 0s
+    50K .......... ....                                       100%  887K=0,1s
+
+2019-04-06 13:20:19 (464 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libcomerr2_1.42.13-1ubuntu1_amd64.deb' saved [65662/65662]
+
+--2019-04-06 13:20:19--  http://archive.ubuntu.com/ubuntu/pool/main/c/cryptsetup/libcryptsetup4_1.6.6-5ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 73190 (71K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libcryptsetup4_2%3a1.6.6-5ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 69%  386K 0s
+    50K .......... .......... .                               100%  844K=0,2s
+
+2019-04-06 13:20:19 (461 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libcryptsetup4_2%3a1.6.6-5ubuntu2_amd64.deb' saved [73190/73190]
+
+--2019-04-06 13:20:19--  http://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/libdb5.3_5.3.28-11_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 669842 (654K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libdb5.3_5.3.28-11_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  7%  405K 1s
+    50K .......... .......... .......... .......... .......... 15%  985K 1s
+   100K .......... .......... .......... .......... .......... 22% 1,52M 1s
+   150K .......... .......... .......... .......... .......... 30% 1,23M 1s
+   200K .......... .......... .......... .......... .......... 38% 4,89M 0s
+   250K .......... .......... .......... .......... .......... 45% 2,13M 0s
+   300K .......... .......... .......... .......... .......... 53% 2,13M 0s
+   350K .......... .......... .......... .......... .......... 61% 2,14M 0s
+   400K .......... .......... .......... .......... .......... 68% 2,21M 0s
+   450K .......... .......... .......... .......... .......... 76% 2,13M 0s
+   500K .......... .......... .......... .......... .......... 84% 2,13M 0s
+   550K .......... .......... .......... .......... .......... 91% 2,10M 0s
+   600K .......... .......... .......... .......... .......... 99% 2,16M 0s
+   650K ....                                                  100% 2,35M=0,4s
+
+2019-04-06 13:20:19 (1,45 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libdb5.3_5.3.28-11_amd64.deb' saved [669842/669842]
+
+--2019-04-06 13:20:20--  http://archive.ubuntu.com/ubuntu/pool/main/c/cdebconf/libdebconfclient0_0.198ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6368 (6,2K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libdebconfclient0_0.198ubuntu1_amd64.deb'
+
+     0K ......                                                100%  562K=0,01s
+
+2019-04-06 13:20:20 (562 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libdebconfclient0_0.198ubuntu1_amd64.deb' saved [6368/6368]
+
+--2019-04-06 13:20:20--  http://archive.ubuntu.com/ubuntu/pool/main/l/lvm2/libdevmapper1.02.1_1.02.110-1ubuntu10_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 145908 (142K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libdevmapper1.02.1_2%3a1.02.110-1ubuntu10_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 35%  413K 0s
+    50K .......... .......... .......... .......... .......... 70%  906K 0s
+   100K .......... .......... .......... .......... ..        100% 1,75M=0,2s
+
+2019-04-06 13:20:20 (713 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libdevmapper1.02.1_2%3a1.02.110-1ubuntu10_amd64.deb' saved [145908/145908]
+
+--2019-04-06 13:20:20--  http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/libfdisk1_2.27.1-6ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 138270 (135K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libfdisk1_2.27.1-6ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 37%  415K 0s
+    50K .......... .......... .......... .......... .......... 74% 1,01M 0s
+   100K .......... .......... .......... .....                100% 1,56M=0,2s
+
+2019-04-06 13:20:20 (708 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libfdisk1_2.27.1-6ubuntu3_amd64.deb' saved [138270/138270]
+
+--2019-04-06 13:20:20--  http://archive.ubuntu.com/ubuntu/pool/main/g/gccgo-6/libgcc1_6.0.1-0ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 38502 (38K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libgcc1_1%3a6.0.1-0ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......              100%  346K=0,1s
+
+2019-04-06 13:20:21 (346 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libgcc1_1%3a6.0.1-0ubuntu1_amd64.deb' saved [38502/38502]
+
+--2019-04-06 13:20:21--  http://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.6.5-2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 337608 (330K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libgcrypt20_1.6.5-2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 15%  409K 1s
+    50K .......... .......... .......... .......... .......... 30% 1,02M 0s
+   100K .......... .......... .......... .......... .......... 45% 1,52M 0s
+   150K .......... .......... .......... .......... .......... 60% 1,87M 0s
+   200K .......... .......... .......... .......... .......... 75% 2,12M 0s
+   250K .......... .......... .......... .......... .......... 90% 2,14M 0s
+   300K .......... .......... .........                       100% 2,22M=0,3s
+
+2019-04-06 13:20:21 (1,12 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libgcrypt20_1.6.5-2_amd64.deb' saved [337608/337608]
+
+--2019-04-06 13:20:21--  http://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error0_1.21-2ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 34450 (34K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libgpg-error0_1.21-2ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... ...                  100%  400K=0,08s
+
+2019-04-06 13:20:21 (400 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libgpg-error0_1.21-2ubuntu1_amd64.deb' saved [34450/34450]
+
+--2019-04-06 13:20:21--  http://archive.ubuntu.com/ubuntu/pool/main/k/kmod/libkmod2_22-1ubuntu4_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 39760 (39K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libkmod2_22-1ubuntu4_amd64.deb'
+
+     0K .......... .......... .......... ........             100%  377K=0,1s
+
+2019-04-06 13:20:22 (377 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libkmod2_22-1ubuntu4_amd64.deb' saved [39760/39760]
+
+--2019-04-06 13:20:22--  http://archive.ubuntu.com/ubuntu/pool/main/l/lz4/liblz4-1_0.0~r131-2ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 39606 (39K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/liblz4-1_0.0~r131-2ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... ........             100%  356K=0,1s
+
+2019-04-06 13:20:22 (356 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/liblz4-1_0.0~r131-2ubuntu2_amd64.deb' saved [39606/39606]
+
+--2019-04-06 13:20:22--  http://archive.ubuntu.com/ubuntu/pool/main/x/xz-utils/liblzma5_5.1.1alpha+20120614-2ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 80310 (78K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/liblzma5_5.1.1alpha+20120614-2ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 63%  400K 0s
+    50K .......... .......... ........                        100%  862K=0,2s
+
+2019-04-06 13:20:22 (496 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/liblzma5_5.1.1alpha+20120614-2ubuntu2_amd64.deb' saved [80310/80310]
+
+--2019-04-06 13:20:22--  http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/libmount1_2.27.1-6ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 114398 (112K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libmount1_2.27.1-6ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 44%  386K 0s
+    50K .......... .......... .......... .......... .......... 89%  921K 0s
+   100K .......... .                                          100% 1,34M=0,2s
+
+2019-04-06 13:20:23 (581 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libmount1_2.27.1-6ubuntu3_amd64.deb' saved [114398/114398]
+
+--2019-04-06 13:20:23--  http://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/libncurses5_6.0+20160213-1ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 93854 (92K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libncurses5_6.0+20160213-1ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 54%  405K 0s
+    50K .......... .......... .......... .......... .         100%  859K=0,2s
+
+2019-04-06 13:20:23 (533 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libncurses5_6.0+20160213-1ubuntu1_amd64.deb' saved [93854/93854]
+
+--2019-04-06 13:20:23--  http://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/libncursesw5_6.0+20160213-1ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 114598 (112K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libncursesw5_6.0+20160213-1ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 44%  375K 0s
+    50K .......... .......... .......... .......... .......... 89% 1,01M 0s
+   100K .......... .                                          100% 1,39M=0,2s
+
+2019-04-06 13:20:23 (588 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libncursesw5_6.0+20160213-1ubuntu1_amd64.deb' saved [114598/114598]
+
+--2019-04-06 13:20:23--  http://archive.ubuntu.com/ubuntu/pool/main/p/pam/libpam-modules_1.1.8-3.2ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 244050 (238K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpam-modules_1.1.8-3.2ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 20%  379K 0s
+    50K .......... .......... .......... .......... .......... 41%  849K 0s
+   100K .......... .......... .......... .......... .......... 62% 1,71M 0s
+   150K .......... .......... .......... .......... .......... 83% 1,72M 0s
+   200K .......... .......... .......... ........             100% 2,52M=0,3s
+
+2019-04-06 13:20:24 (908 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpam-modules_1.1.8-3.2ubuntu2_amd64.deb' saved [244050/244050]
+
+--2019-04-06 13:20:24--  http://archive.ubuntu.com/ubuntu/pool/main/p/pam/libpam-modules-bin_1.1.8-3.2ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 37128 (36K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpam-modules-bin_1.1.8-3.2ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... ......               100%  116K=0,3s
+
+2019-04-06 13:20:24 (116 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpam-modules-bin_1.1.8-3.2ubuntu2_amd64.deb' saved [37128/37128]
+
+--2019-04-06 13:20:24--  http://archive.ubuntu.com/ubuntu/pool/main/p/pam/libpam-runtime_1.1.8-3.2ubuntu2_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 37760 (37K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpam-runtime_1.1.8-3.2ubuntu2_all.deb'
+
+     0K .......... .......... .......... ......               100%  340K=0,1s
+
+2019-04-06 13:20:25 (340 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpam-runtime_1.1.8-3.2ubuntu2_all.deb' saved [37760/37760]
+
+--2019-04-06 13:20:25--  http://archive.ubuntu.com/ubuntu/pool/main/p/pam/libpam0g_1.1.8-3.2ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 55614 (54K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpam0g_1.1.8-3.2ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 92%  384K 0s
+    50K ....                                                  100% 1,39M=0,1s
+
+2019-04-06 13:20:25 (408 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpam0g_1.1.8-3.2ubuntu2_amd64.deb' saved [55614/55614]
+
+--2019-04-06 13:20:25--  http://archive.ubuntu.com/ubuntu/pool/main/p/pcre3/libpcre3_8.38-3.1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 222826 (218K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpcre3_2%3a8.38-3.1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 22%  379K 0s
+    50K .......... .......... .......... .......... .......... 45%  880K 0s
+   100K .......... .......... .......... .......... .......... 68% 1,54M 0s
+   150K .......... .......... .......... .......... .......... 91% 1,83M 0s
+   200K .......... .......                                    100% 3,93M=0,3s
+
+2019-04-06 13:20:25 (865 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libpcre3_2%3a8.38-3.1_amd64.deb' saved [222826/222826]
+
+--2019-04-06 13:20:25--  http://archive.ubuntu.com/ubuntu/pool/main/p/procps/libprocps4_3.3.10-4ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 32654 (32K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libprocps4_2%3a3.3.10-4ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .                    100%  371K=0,09s
+
+2019-04-06 13:20:26 (371 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libprocps4_2%3a3.3.10-4ubuntu2_amd64.deb' saved [32654/32654]
+
+--2019-04-06 13:20:26--  http://archive.ubuntu.com/ubuntu/pool/main/r/readline6/libreadline6_6.3-8ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 116686 (114K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libreadline6_6.3-8ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 43%  373K 0s
+    50K .......... .......... .......... .......... .......... 87%  829K 0s
+   100K .......... ...                                        100% 1,37M=0,2s
+
+2019-04-06 13:20:26 (558 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libreadline6_6.3-8ubuntu2_amd64.deb' saved [116686/116686]
+
+--2019-04-06 13:20:26--  http://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp2_2.2.3-3ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 34104 (33K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libseccomp2_2.2.3-3ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... ...                  100%  364K=0,09s
+
+2019-04-06 13:20:26 (364 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libseccomp2_2.2.3-3ubuntu3_amd64.deb' saved [34104/34104]
+
+--2019-04-06 13:20:26--  http://archive.ubuntu.com/ubuntu/pool/main/libs/libselinux/libselinux1_2.4-3build2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 55852 (55K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libselinux1_2.4-3build2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 91%  400K 0s
+    50K ....                                                  100% 1,37M=0,1s
+
+2019-04-06 13:20:26 (425 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libselinux1_2.4-3build2_amd64.deb' saved [55852/55852]
+
+--2019-04-06 13:20:27--  http://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage-common_2.3-1build3_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6178 (6,0K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsemanage-common_2.3-1build3_all.deb'
+
+     0K ......                                                100%  849K=0,007s
+
+2019-04-06 13:20:27 (849 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsemanage-common_2.3-1build3_all.deb' saved [6178/6178]
+
+--2019-04-06 13:20:27--  http://archive.ubuntu.com/ubuntu/pool/main/libs/libsemanage/libsemanage1_2.3-1build3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 71074 (69K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsemanage1_2.3-1build3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 72%  404K 0s
+    50K .......... .........                                  100%  831K=0,1s
+
+2019-04-06 13:20:27 (472 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsemanage1_2.3-1build3_amd64.deb' saved [71074/71074]
+
+--2019-04-06 13:20:27--  http://archive.ubuntu.com/ubuntu/pool/main/libs/libsepol/libsepol1_2.4-2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 186408 (182K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsepol1_2.4-2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 27%  258K 1s
+    50K .......... .......... .......... .......... .......... 54%  696K 0s
+   100K .......... .......... .......... .......... .......... 82%  996K 0s
+   150K .......... .......... .......... ..                   100%  975K=0,3s
+
+2019-04-06 13:20:28 (522 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsepol1_2.4-2_amd64.deb' saved [186408/186408]
+
+--2019-04-06 13:20:28--  http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/libsmartcols1_2.27.1-6ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 63416 (62K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsmartcols1_2.27.1-6ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 80%  417K 0s
+    50K .......... .                                          100%  728K=0,1s
+
+2019-04-06 13:20:28 (454 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsmartcols1_2.27.1-6ubuntu3_amd64.deb' saved [63416/63416]
+
+--2019-04-06 13:20:28--  http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/libss2_1.42.13-1ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 70028 (68K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libss2_1.42.13-1ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 73%  405K 0s
+    50K .......... ........                                   100%  923K=0,1s
+
+2019-04-06 13:20:28 (477 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libss2_1.42.13-1ubuntu1_amd64.deb' saved [70028/70028]
+
+--2019-04-06 13:20:28--  http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.3.1-14ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 393156 (384K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libstdc++6_5.3.1-14ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 13%  385K 1s
+    50K .......... .......... .......... .......... .......... 26%  910K 1s
+   100K .......... .......... .......... .......... .......... 39% 1,65M 0s
+   150K .......... .......... .......... .......... .......... 52% 1,84M 0s
+   200K .......... .......... .......... .......... .......... 65% 2,38M 0s
+   250K .......... .......... .......... .......... .......... 78% 2,12M 0s
+   300K .......... .......... .......... .......... .......... 91% 2,11M 0s
+   350K .......... .......... .......... ...                  100% 2,21M=0,3s
+
+2019-04-06 13:20:29 (1,16 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libstdc++6_5.3.1-14ubuntu2_amd64.deb' saved [393156/393156]
+
+--2019-04-06 13:20:29--  http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/libsystemd0_229-4ubuntu4_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 209048 (204K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsystemd0_229-4ubuntu4_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 24%  388K 0s
+    50K .......... .......... .......... .......... .......... 48%  889K 0s
+   100K .......... .......... .......... .......... .......... 73% 1,60M 0s
+   150K .......... .......... .......... .......... .......... 97% 1,60M 0s
+   200K ....                                                  100% 7913G=0,2s
+
+2019-04-06 13:20:29 (829 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libsystemd0_229-4ubuntu4_amd64.deb' saved [209048/209048]
+
+--2019-04-06 13:20:29--  http://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/libtinfo5_6.0+20160213-1ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 76830 (75K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libtinfo5_6.0+20160213-1ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 66%  409K 0s
+    50K .......... .......... .....                           100%  865K=0,2s
+
+2019-04-06 13:20:29 (496 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libtinfo5_6.0+20160213-1ubuntu1_amd64.deb' saved [76830/76830]
+
+--2019-04-06 13:20:29--  http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/libudev1_229-4ubuntu4_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 59044 (58K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libudev1_229-4ubuntu4_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 86%  405K 0s
+    50K .......                                               100% 1,14M=0,1s
+
+2019-04-06 13:20:30 (444 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libudev1_229-4ubuntu4_amd64.deb' saved [59044/59044]
+
+--2019-04-06 13:20:30--  http://archive.ubuntu.com/ubuntu/pool/main/libu/libusb/libusb-0.1-4_0.1.12-28_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 17012 (17K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libusb-0.1-4_2%3a0.1.12-28_amd64.deb'
+
+     0K .......... ......                                     100%  277K=0,06s
+
+2019-04-06 13:20:30 (277 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libusb-0.1-4_2%3a0.1.12-28_amd64.deb' saved [17012/17012]
+
+--2019-04-06 13:20:30--  http://archive.ubuntu.com/ubuntu/pool/main/u/ustr/libustr-1.0-1_1.0.4-5_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 68404 (67K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libustr-1.0-1_1.0.4-5_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 74%  414K 0s
+    50K .......... ......                                     100%  811K=0,1s
+
+2019-04-06 13:20:30 (472 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libustr-1.0-1_1.0.4-5_amd64.deb' saved [68404/68404]
+
+--2019-04-06 13:20:30--  http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/libuuid1_2.27.1-6ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15720 (15K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libuuid1_2.27.1-6ubuntu3_amd64.deb'
+
+     0K .......... .....                                      100%  278K=0,06s
+
+2019-04-06 13:20:30 (278 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/libuuid1_2.27.1-6ubuntu3_amd64.deb' saved [15720/15720]
+
+--2019-04-06 13:20:31--  http://archive.ubuntu.com/ubuntu/pool/main/g/glibc/locales_2.23-0ubuntu3_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3213614 (3,1M) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/locales_2.23-0ubuntu3_all.deb'
+
+     0K .......... .......... .......... .......... ..........  1%  414K 7s
+    50K .......... .......... .......... .......... ..........  3%  921K 5s
+   100K .......... .......... .......... .......... ..........  4% 1,72M 4s
+   150K .......... .......... .......... .......... ..........  6% 1,94M 3s
+   200K .......... .......... .......... .......... ..........  7% 2,15M 3s
+   250K .......... .......... .......... .......... ..........  9% 2,11M 3s
+   300K .......... .......... .......... .......... .......... 11% 2,15M 2s
+   350K .......... .......... .......... .......... .......... 12% 2,13M 2s
+   400K .......... .......... .......... .......... .......... 14% 2,21M 2s
+   450K .......... .......... .......... .......... .......... 15% 2,11M 2s
+   500K .......... .......... .......... .......... .......... 17% 1,95M 2s
+   550K .......... .......... .......... .......... .......... 19% 2,38M 2s
+   600K .......... .......... .......... .......... .......... 20% 2,12M 2s
+   650K .......... .......... .......... .......... .......... 22% 2,14M 2s
+   700K .......... .......... .......... .......... .......... 23% 2,13M 2s
+   750K .......... .......... .......... .......... .......... 25% 2,18M 1s
+   800K .......... .......... .......... .......... .......... 27% 1,71M 1s
+   850K .......... .......... .......... .......... .......... 28% 2,87M 1s
+   900K .......... .......... .......... .......... .......... 30% 2,11M 1s
+   950K .......... .......... .......... .......... .......... 31% 2,13M 1s
+  1000K .......... .......... .......... .......... .......... 33% 2,15M 1s
+  1050K .......... .......... .......... .......... .......... 35% 1,92M 1s
+  1100K .......... .......... .......... .......... .......... 36% 1,86M 1s
+  1150K .......... .......... .......... .......... .......... 38% 2,53M 1s
+  1200K .......... .......... .......... .......... .......... 39% 2,13M 1s
+  1250K .......... .......... .......... .......... .......... 41% 2,16M 1s
+  1300K .......... .......... .......... .......... .......... 43% 2,11M 1s
+  1350K .......... .......... .......... .......... .......... 44% 2,13M 1s
+  1400K .......... .......... .......... .......... .......... 46% 1,73M 1s
+  1450K .......... .......... .......... .......... .......... 47% 1,40M 1s
+  1500K .......... .......... .......... .......... .......... 49% 1,19M 1s
+  1550K .......... .......... .......... .......... .......... 50% 2,15M 1s
+  1600K .......... .......... .......... .......... .......... 52% 2,13M 1s
+  1650K .......... .......... .......... .......... .......... 54% 2,13M 1s
+  1700K .......... .......... .......... .......... .......... 55% 2,15M 1s
+  1750K .......... .......... .......... .......... .......... 57% 2,15M 1s
+  1800K .......... .......... .......... .......... .......... 58% 2,15M 1s
+  1850K .......... .......... .......... .......... .......... 60% 2,13M 1s
+  1900K .......... .......... .......... .......... .......... 62% 2,11M 1s
+  1950K .......... .......... .......... .......... .......... 63% 2,16M 1s
+  2000K .......... .......... .......... .......... .......... 65% 2,11M 1s
+  2050K .......... .......... .......... .......... .......... 66% 2,15M 1s
+  2100K .......... .......... .......... .......... .......... 68% 2,18M 1s
+  2150K .......... .......... .......... .......... .......... 70% 1,92M 1s
+  2200K .......... .......... .......... .......... .......... 71% 2,15M 0s
+  2250K .......... .......... .......... .......... .......... 73% 2,13M 0s
+  2300K .......... .......... .......... .......... .......... 74% 2,11M 0s
+  2350K .......... .......... .......... .......... .......... 76% 2,15M 0s
+  2400K .......... .......... .......... .......... .......... 78% 2,11M 0s
+  2450K .......... .......... .......... .......... .......... 79% 2,20M 0s
+  2500K .......... .......... .......... .......... .......... 81% 2,13M 0s
+  2550K .......... .......... .......... .......... .......... 82% 2,16M 0s
+  2600K .......... .......... .......... .......... .......... 84% 2,11M 0s
+  2650K .......... .......... .......... .......... .......... 86% 2,13M 0s
+  2700K .......... .......... .......... .......... .......... 87% 2,15M 0s
+  2750K .......... .......... .......... .......... .......... 89% 2,10M 0s
+  2800K .......... .......... .......... .......... .......... 90% 2,20M 0s
+  2850K .......... .......... .......... .......... .......... 92% 2,01M 0s
+  2900K .......... .......... .......... .......... .......... 94% 2,27M 0s
+  2950K .......... .......... .......... .......... .......... 95% 2,14M 0s
+  3000K .......... .......... .......... .......... .......... 97% 2,16M 0s
+  3050K .......... .......... .......... .......... .......... 98% 2,10M 0s
+  3100K .......... .......... .......... ........             100% 2,22M=1,6s
+
+2019-04-06 13:20:32 (1,90 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/locales_2.23-0ubuntu3_all.deb' saved [3213614/3213614]
+
+--2019-04-06 13:20:32--  http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/login_4.2-3.1ubuntu5_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 304980 (298K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/login_1%3a4.2-3.1ubuntu5_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 16%  399K 1s
+    50K .......... .......... .......... .......... .......... 33%  975K 0s
+   100K .......... .......... .......... .......... .......... 50% 1,49M 0s
+   150K .......... .......... .......... .......... .......... 67% 1,51M 0s
+   200K .......... .......... .......... .......... .......... 83% 2,68M 0s
+   250K .......... .......... .......... .......... .......   100% 2,15M=0,3s
+
+2019-04-06 13:20:33 (1,03 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/login_1%3a4.2-3.1ubuntu5_amd64.deb' saved [304980/304980]
+
+--2019-04-06 13:20:33--  http://archive.ubuntu.com/ubuntu/pool/main/l/lsb/lsb-base_9.20160110_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13476 (13K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/lsb-base_9.20160110_all.deb'
+
+     0K .......... ...                                        100%  846K=0,02s
+
+2019-04-06 13:20:33 (846 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/lsb-base_9.20160110_all.deb' saved [13476/13476]
+
+--2019-04-06 13:20:33--  http://archive.ubuntu.com/ubuntu/pool/main/m/makedev/makedev_2.3.1-93ubuntu1_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 26666 (26K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/makedev_2.3.1-93ubuntu1_all.deb'
+
+     0K .......... .......... ......                          100%  308K=0,08s
+
+2019-04-06 13:20:33 (308 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/makedev_2.3.1-93ubuntu1_all.deb' saved [26666/26666]
+
+--2019-04-06 13:20:33--  http://archive.ubuntu.com/ubuntu/pool/main/m/mawk/mawk_1.3.3-17ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 78870 (77K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/mawk_1.3.3-17ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 64%  394K 0s
+    50K .......... .......... .......                         100%  717K=0,2s
+
+2019-04-06 13:20:33 (468 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/mawk_1.3.3-17ubuntu2_amd64.deb' saved [78870/78870]
+
+--2019-04-06 13:20:33--  http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/mount_2.27.1-6ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 121160 (118K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/mount_2.27.1-6ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 42%  392K 0s
+    50K .......... .......... .......... .......... .......... 84%  892K 0s
+   100K .......... ........                                   100% 1,57M=0,2s
+
+2019-04-06 13:20:34 (606 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/mount_2.27.1-6ubuntu3_amd64.deb' saved [121160/121160]
+
+--2019-04-06 13:20:34--  http://archive.ubuntu.com/ubuntu/pool/main/g/glibc/multiarch-support_2.23-0ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6824 (6,7K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/multiarch-support_2.23-0ubuntu3_amd64.deb'
+
+     0K ......                                                100%  485K=0,01s
+
+2019-04-06 13:20:34 (485 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/multiarch-support_2.23-0ubuntu3_amd64.deb' saved [6824/6824]
+
+--2019-04-06 13:20:34--  http://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses-base_6.0+20160213-1ubuntu1_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16732 (16K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/ncurses-base_6.0+20160213-1ubuntu1_all.deb'
+
+     0K .......... ......                                     100%  286K=0,06s
+
+2019-04-06 13:20:34 (286 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/ncurses-base_6.0+20160213-1ubuntu1_all.deb' saved [16732/16732]
+
+--2019-04-06 13:20:34--  http://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/ncurses-bin_6.0+20160213-1ubuntu1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 136222 (133K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/ncurses-bin_6.0+20160213-1ubuntu1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 37%  406K 0s
+    50K .......... .......... .......... .......... .......... 75% 1013K 0s
+   100K .......... .......... .......... ...                  100% 1,49M=0,2s
+
+2019-04-06 13:20:35 (685 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/ncurses-bin_6.0+20160213-1ubuntu1_amd64.deb' saved [136222/136222]
+
+--2019-04-06 13:20:35--  http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/passwd_4.2-3.1ubuntu5_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 779644 (761K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/passwd_1%3a4.2-3.1ubuntu5_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  6%  398K 2s
+    50K .......... .......... .......... .......... .......... 13%  934K 1s
+   100K .......... .......... .......... .......... .......... 19% 1,71M 1s
+   150K .......... .......... .......... .......... .......... 26% 1,25M 1s
+   200K .......... .......... .......... .......... .......... 32% 5,01M 1s
+   250K .......... .......... .......... .......... .......... 39% 2,13M 0s
+   300K .......... .......... .......... .......... .......... 45% 2,12M 0s
+   350K .......... .......... .......... .......... .......... 52% 2,15M 0s
+   400K .......... .......... .......... .......... .......... 59% 2,18M 0s
+   450K .......... .......... .......... .......... .......... 65% 2,10M 0s
+   500K .......... .......... .......... .......... .......... 72% 2,13M 0s
+   550K .......... .......... .......... .......... .......... 78% 2,15M 0s
+   600K .......... .......... .......... .......... .......... 85% 2,10M 0s
+   650K .......... .......... .......... .......... .......... 91% 2,14M 0s
+   700K .......... .......... .......... .......... .......... 98% 2,15M 0s
+   750K .......... .                                          100% 2,29M=0,5s
+
+2019-04-06 13:20:35 (1,52 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/passwd_1%3a4.2-3.1ubuntu5_amd64.deb' saved [779644/779644]
+
+--2019-04-06 13:20:35--  http://archive.ubuntu.com/ubuntu/pool/main/p/perl/perl-base_5.22.1-9_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1280834 (1,2M) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/perl-base_5.22.1-9_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  3%  414K 3s
+    50K .......... .......... .......... .......... ..........  7%  940K 2s
+   100K .......... .......... .......... .......... .......... 11% 1,56M 2s
+   150K .......... .......... .......... .......... .......... 15% 1,22M 1s
+   200K .......... .......... .......... .......... .......... 19% 5,39M 1s
+   250K .......... .......... .......... .......... .......... 23% 2,21M 1s
+   300K .......... .......... .......... .......... .......... 27% 2,14M 1s
+   350K .......... .......... .......... .......... .......... 31% 2,18M 1s
+   400K .......... .......... .......... .......... .......... 35% 2,12M 1s
+   450K .......... .......... .......... .......... .......... 39% 2,20M 1s
+   500K .......... .......... .......... .......... .......... 43% 2,10M 0s
+   550K .......... .......... .......... .......... .......... 47% 2,08M 0s
+   600K .......... .......... .......... .......... .......... 51% 2,11M 0s
+   650K .......... .......... .......... .......... .......... 55% 2,15M 0s
+   700K .......... .......... .......... .......... .......... 59% 2,18M 0s
+   750K .......... .......... .......... .......... .......... 63% 2,13M 0s
+   800K .......... .......... .......... .......... .......... 67% 2,17M 0s
+   850K .......... .......... .......... .......... .......... 71% 2,13M 0s
+   900K .......... .......... .......... .......... .......... 75% 2,21M 0s
+   950K .......... .......... .......... .......... .......... 79% 2,13M 0s
+  1000K .......... .......... .......... .......... .......... 83% 2,18M 0s
+  1050K .......... .......... .......... .......... .......... 87% 2,13M 0s
+  1100K .......... .......... .......... .......... .......... 91% 2,14M 0s
+  1150K .......... .......... .......... .......... .......... 95% 2,19M 0s
+  1200K .......... .......... .......... .......... .......... 99% 2,13M 0s
+  1250K                                                       100% 1553G=0,7s
+
+2019-04-06 13:20:36 (1,72 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/perl-base_5.22.1-9_amd64.deb' saved [1280834/1280834]
+
+--2019-04-06 13:20:36--  http://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_3.3.10-4ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 221574 (216K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/procps_2%3a3.3.10-4ubuntu2_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 23%  387K 0s
+    50K .......... .......... .......... .......... .......... 46%  792K 0s
+   100K .......... .......... .......... .......... .......... 69% 1,80M 0s
+   150K .......... .......... .......... .......... .......... 92% 1,58M 0s
+   200K .......... ......                                     100% 2,93M=0,3s
+
+2019-04-06 13:20:37 (846 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/procps_2%3a3.3.10-4ubuntu2_amd64.deb' saved [221574/221574]
+
+--2019-04-06 13:20:37--  http://archive.ubuntu.com/ubuntu/pool/main/r/readline6/readline-common_6.3-8ubuntu2_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51352 (50K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/readline-common_6.3-8ubuntu2_all.deb'
+
+     0K .......... .......... .......... .......... .......... 99%  172K 0s
+    50K                                                       100%  283G=0,3s
+
+2019-04-06 13:20:37 (172 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/readline-common_6.3-8ubuntu2_all.deb' saved [51352/51352]
+
+--2019-04-06 13:20:37--  http://archive.ubuntu.com/ubuntu/pool/main/s/sed/sed_4.2.2-7_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 138916 (136K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/sed_4.2.2-7_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 36%  383K 0s
+    50K .......... .......... .......... .......... .......... 73%  909K 0s
+   100K .......... .......... .......... .....                100% 1,61M=0,2s
+
+2019-04-06 13:20:37 (655 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/sed_4.2.2-7_amd64.deb' saved [138916/138916]
+
+--2019-04-06 13:20:37--  http://archive.ubuntu.com/ubuntu/pool/main/s/sensible-utils/sensible-utils_0.0.9_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10502 (10K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/sensible-utils_0.0.9_all.deb'
+
+     0K ..........                                            100%  519K=0,02s
+
+2019-04-06 13:20:38 (519 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/sensible-utils_0.0.9_all.deb' saved [10502/10502]
+
+--2019-04-06 13:20:38--  http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_229-4ubuntu4_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3643306 (3,5M) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/systemd_229-4ubuntu4_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  1%  397K 9s
+    50K .......... .......... .......... .......... ..........  2%  889K 6s
+   100K .......... .......... .......... .......... ..........  4% 1,75M 5s
+   150K .......... .......... .......... .......... ..........  5% 1,32M 4s
+   200K .......... .......... .......... .......... ..........  7% 3,76M 3s
+   250K .......... .......... .......... .......... ..........  8% 2,15M 3s
+   300K .......... .......... .......... .......... ..........  9% 2,14M 3s
+   350K .......... .......... .......... .......... .......... 11% 2,11M 3s
+   400K .......... .......... .......... .......... .......... 12% 2,23M 2s
+   450K .......... .......... .......... .......... .......... 14% 1,36M 2s
+   500K .......... .......... .......... .......... .......... 15% 4,84M 2s
+   550K .......... .......... .......... .......... .......... 16% 2,13M 2s
+   600K .......... .......... .......... .......... .......... 18% 2,11M 2s
+   650K .......... .......... .......... .......... .......... 19% 2,14M 2s
+   700K .......... .......... .......... .......... .......... 21% 2,13M 2s
+   750K .......... .......... .......... .......... .......... 22% 2,18M 2s
+   800K .......... .......... .......... .......... .......... 23% 2,13M 2s
+   850K .......... .......... .......... .......... .......... 25% 2,15M 2s
+   900K .......... .......... .......... .......... .......... 26% 2,11M 2s
+   950K .......... .......... .......... .......... .......... 28% 2,13M 2s
+  1000K .......... .......... .......... .......... .......... 29% 2,15M 1s
+  1050K .......... .......... .......... .......... .......... 30% 2,11M 1s
+  1100K .......... .......... .......... .......... .......... 32% 2,20M 1s
+  1150K .......... .......... .......... .......... .......... 33% 2,15M 1s
+  1200K .......... .......... .......... .......... .......... 35% 2,12M 1s
+  1250K .......... .......... .......... .......... .......... 36% 2,13M 1s
+  1300K .......... .......... .......... .......... .......... 37% 2,16M 1s
+  1350K .......... .......... .......... .......... .......... 39% 2,08M 1s
+  1400K .......... .......... .......... .......... .......... 40% 2,15M 1s
+  1450K .......... .......... .......... .......... .......... 42% 2,18M 1s
+  1500K .......... .......... .......... .......... .......... 43% 2,13M 1s
+  1550K .......... .......... .......... .......... .......... 44% 2,14M 1s
+  1600K .......... .......... .......... .......... .......... 46% 2,13M 1s
+  1650K .......... .......... .......... .......... .......... 47% 2,11M 1s
+  1700K .......... .......... .......... .......... .......... 49% 2,16M 1s
+  1750K .......... .......... .......... .......... .......... 50% 2,20M 1s
+  1800K .......... .......... .......... .......... .......... 51% 2,11M 1s
+  1850K .......... .......... .......... .......... .......... 53% 2,16M 1s
+  1900K .......... .......... .......... .......... .......... 54% 2,13M 1s
+  1950K .......... .......... .......... .......... .......... 56% 2,10M 1s
+  2000K .......... .......... .......... .......... .......... 57% 2,03M 1s
+  2050K .......... .......... .......... .......... .......... 59% 2,27M 1s
+  2100K .......... .......... .......... .......... .......... 60% 2,18M 1s
+  2150K .......... .......... .......... .......... .......... 61% 2,13M 1s
+  2200K .......... .......... .......... .......... .......... 63% 2,13M 1s
+  2250K .......... .......... .......... .......... .......... 64% 2,13M 1s
+  2300K .......... .......... .......... .......... .......... 66% 1,79M 1s
+  2350K .......... .......... .......... .......... .......... 67% 2,64M 1s
+  2400K .......... .......... .......... .......... .......... 68% 2,13M 1s
+  2450K .......... .......... .......... .......... .......... 70% 2,20M 1s
+  2500K .......... .......... .......... .......... .......... 71% 2,11M 1s
+  2550K .......... .......... .......... .......... .......... 73% 2,13M 0s
+  2600K .......... .......... .......... .......... .......... 74% 1,62M 0s
+  2650K .......... .......... .......... .......... .......... 75% 3,11M 0s
+  2700K .......... .......... .......... .......... .......... 77% 2,14M 0s
+  2750K .......... .......... .......... .......... .......... 78% 2,16M 0s
+  2800K .......... .......... .......... .......... .......... 80% 2,17M 0s
+  2850K .......... .......... .......... .......... .......... 81% 2,13M 0s
+  2900K .......... .......... .......... .......... .......... 82% 1,53M 0s
+  2950K .......... .......... .......... .......... .......... 84% 3,49M 0s
+  3000K .......... .......... .......... .......... .......... 85% 2,13M 0s
+  3050K .......... .......... .......... .......... .......... 87% 2,12M 0s
+  3100K .......... .......... .......... .......... .......... 88% 2,15M 0s
+  3150K .......... .......... .......... .......... .......... 89% 2,19M 0s
+  3200K .......... .......... .......... .......... .......... 91% 1,42M 0s
+  3250K .......... .......... .......... .......... .......... 92% 4,17M 0s
+  3300K .......... .......... .......... .......... .......... 94% 2,13M 0s
+  3350K .......... .......... .......... .......... .......... 95% 2,16M 0s
+  3400K .......... .......... .......... .......... .......... 96% 2,11M 0s
+  3450K .......... .......... .......... .......... .......... 98% 2,13M 0s
+  3500K .......... .......... .......... .......... .......... 99% 1,32M 0s
+  3550K .......                                               100% 49,1M=1,8s
+
+2019-04-06 13:20:40 (1,95 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/systemd_229-4ubuntu4_amd64.deb' saved [3643306/3643306]
+
+--2019-04-06 13:20:40--  http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd-sysv_229-4ubuntu4_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16448 (16K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/systemd-sysv_229-4ubuntu4_amd64.deb'
+
+     0K .......... ......                                     100%  286K=0,06s
+
+2019-04-06 13:20:40 (286 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/systemd-sysv_229-4ubuntu4_amd64.deb' saved [16448/16448]
+
+--2019-04-06 13:20:40--  http://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/sysv-rc_2.88dsf-59.3ubuntu2_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18180 (18K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/sysv-rc_2.88dsf-59.3ubuntu2_all.deb'
+
+     0K .......... .......                                    100%  279K=0,06s
+
+2019-04-06 13:20:40 (279 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/sysv-rc_2.88dsf-59.3ubuntu2_all.deb' saved [18180/18180]
+
+--2019-04-06 13:20:40--  http://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/sysvinit-utils_2.88dsf-59.3ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21682 (21K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/sysvinit-utils_2.88dsf-59.3ubuntu2_amd64.deb'
+
+     0K .......... .......... .                               100%  338K=0,06s
+
+2019-04-06 13:20:40 (338 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/sysvinit-utils_2.88dsf-59.3ubuntu2_amd64.deb' saved [21682/21682]
+
+--2019-04-06 13:20:40--  http://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.28-2.1_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 208682 (204K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/tar_1.28-2.1_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 24%  381K 0s
+    50K .......... .......... .......... .......... .......... 49%  863K 0s
+   100K .......... .......... .......... .......... .......... 73% 1,66M 0s
+   150K .......... .......... .......... .......... .......... 98% 1,83M 0s
+   200K ...                                                   100% 2,50M=0,2s
+
+2019-04-06 13:20:41 (826 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/tar_1.28-2.1_amd64.deb' saved [208682/208682]
+
+--2019-04-06 13:20:41--  http://archive.ubuntu.com/ubuntu/pool/main/t/tzdata/tzdata_2016d-0ubuntu0.16.04_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 168074 (164K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/tzdata_2016d-0ubuntu0.16.04_all.deb'
+
+     0K .......... .......... .......... .......... .......... 30%  400K 0s
+    50K .......... .......... .......... .......... .......... 60%  865K 0s
+   100K .......... .......... .......... .......... .......... 91% 1,70M 0s
+   150K .......... ....                                       100% 2,11M=0,2s
+
+2019-04-06 13:20:41 (752 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/tzdata_2016d-0ubuntu0.16.04_all.deb' saved [168074/168074]
+
+--2019-04-06 13:20:41--  http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-keyring/ubuntu-keyring_2012.05.19_all.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16738 (16K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/ubuntu-keyring_2012.05.19_all.deb'
+
+     0K .......... ......                                     100%  294K=0,06s
+
+2019-04-06 13:20:41 (294 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/ubuntu-keyring_2012.05.19_all.deb' saved [16738/16738]
+
+--2019-04-06 13:20:41--  http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.27.1-6ubuntu3_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 847730 (828K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/util-linux_2.27.1-6ubuntu3_amd64.deb'
+
+     0K .......... .......... .......... .......... ..........  6%  380K 2s
+    50K .......... .......... .......... .......... .......... 12%  893K 1s
+   100K .......... .......... .......... .......... .......... 18% 1,63M 1s
+   150K .......... .......... .......... .......... .......... 24% 1,83M 1s
+   200K .......... .......... .......... .......... .......... 30% 2,28M 1s
+   250K .......... .......... .......... .......... .......... 36% 2,13M 1s
+   300K .......... .......... .......... .......... .......... 42% 2,16M 0s
+   350K .......... .......... .......... .......... .......... 48% 2,11M 0s
+   400K .......... .......... .......... .......... .......... 54% 2,21M 0s
+   450K .......... .......... .......... .......... .......... 60% 1,78M 0s
+   500K .......... .......... .......... .......... .......... 66% 2,63M 0s
+   550K .......... .......... .......... .......... .......... 72% 2,14M 0s
+   600K .......... .......... .......... .......... .......... 78% 2,13M 0s
+   650K .......... .......... .......... .......... .......... 84% 2,14M 0s
+   700K .......... .......... .......... .......... .......... 90% 2,12M 0s
+   750K .......... .......... .......... .......... .......... 96% 1,66M 0s
+   800K .......... .......... .......                         100% 4,92M=0,5s
+
+2019-04-06 13:20:42 (1,53 MB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/util-linux_2.27.1-6ubuntu3_amd64.deb' saved [847730/847730]
+
+--2019-04-06 13:20:42--  http://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib1g_1.2.8.dfsg-2ubuntu4_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 91.189.88.161, 91.189.88.162, 91.189.88.149, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|91.189.88.161|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51328 (50K) [application/x-debian-package]
+Saving to: '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/zlib1g_1%3a1.2.8.dfsg-2ubuntu4_amd64.deb'
+
+     0K .......... .......... .......... .......... .......... 99%  406K 0s
+    50K                                                       100%  238G=0,1s
+
+2019-04-06 13:20:42 (407 KB/s) - '/home/vale/ubuntufs/.mkosi-_y8wrxyl/root//var/cache/apt/archives/partial/zlib1g_1%3a1.2.8.dfsg-2ubuntu4_amd64.deb' saved [51328/51328]
+
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 5 package 'dpkg':
+ missing description
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 5 package 'dpkg':
+ missing architecture
+Selecting previously unselected package base-passwd.
+(Reading database ... 0 files and directories currently installed.)
+Preparing to unpack .../base-passwd_3.5.39_amd64.deb ...
+Unpacking base-passwd (3.5.39) ...
+dpkg: base-passwd: dependency problems, but configuring anyway as you requested:
+ base-passwd depends on libc6 (>= 2.8); however:
+  Package libc6 is not installed.
+ base-passwd depends on libdebconfclient0 (>= 0.145); however:
+  Package libdebconfclient0 is not installed.
+
+Setting up base-passwd (3.5.39) ...
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 24 package 'dpkg':
+ missing description
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 24 package 'dpkg':
+ missing architecture
+Selecting previously unselected package base-files.
+dpkg: regarding .../base-files_9.4ubuntu4_amd64.deb containing base-files, pre-dependency problem:
+ base-files pre-depends on awk
+  awk is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+(Reading database ... 41 files and directories currently installed.)
+Preparing to unpack .../base-files_9.4ubuntu4_amd64.deb ...
+Unpacking base-files (9.4ubuntu4) ...
+dpkg: base-files: dependency problems, but configuring anyway as you requested:
+ base-files depends on awk; however:
+  Package awk is not installed.
+
+Setting up base-files (9.4ubuntu4) ...
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 56 package 'dpkg':
+ missing description
+dpkg: warning: parsing file '/var/lib/dpkg/status' near line 56 package 'dpkg':
+ missing architecture
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libbz2-1.0
+  libbz2-1.0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libc6 (>= 2.14)
+  libc6 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on liblzma5 (>= 5.1.1alpha+20120614)
+  liblzma5 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libselinux1 (>= 2.3)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on zlib1g (>= 1:1.1.4)
+  zlib1g is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on tar (>= 1.23)
+  tar is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+(Reading database ... 125 files and directories currently installed.)
+Preparing to unpack .../dpkg_1.18.4ubuntu1_amd64.deb ...
+Unpacking dpkg (1.18.4ubuntu1) over (1.18.4ubuntu1) ...
+dpkg: dpkg: dependency problems, but configuring anyway as you requested:
+ dpkg depends on libbz2-1.0; however:
+  Package libbz2-1.0 is not installed.
+ dpkg depends on libc6 (>= 2.14); however:
+  Package libc6 is not installed.
+ dpkg depends on liblzma5 (>= 5.1.1alpha+20120614); however:
+  Package liblzma5 is not installed.
+ dpkg depends on libselinux1 (>= 2.3); however:
+  Package libselinux1 is not installed.
+ dpkg depends on zlib1g (>= 1:1.1.4); however:
+  Package zlib1g is not installed.
+ dpkg depends on tar (>= 1.23); however:
+  Package tar is not installed.
+
+Setting up dpkg (1.18.4ubuntu1) ...
+Selecting previously unselected package libc6:amd64.
+(Reading database ... 378 files and directories currently installed.)
+Preparing to unpack .../libc6_2.23-0ubuntu3_amd64.deb ...
+Unpacking libc6:amd64 (2.23-0ubuntu3) ...
+dpkg: libc6:amd64: dependency problems, but configuring anyway as you requested:
+ libc6:amd64 depends on libgcc1; however:
+  Package libgcc1 is not installed.
+
+Setting up libc6:amd64 (2.23-0ubuntu3) ...
+Selecting previously unselected package perl-base.
+(Reading database ... 695 files and directories currently installed.)
+Preparing to unpack .../perl-base_5.22.1-9_amd64.deb ...
+Unpacking perl-base (5.22.1-9) ...
+Setting up perl-base (5.22.1-9) ...
+Selecting previously unselected package mawk.
+(Reading database ... 1278 files and directories currently installed.)
+Preparing to unpack .../mawk_1.3.3-17ubuntu2_amd64.deb ...
+Unpacking mawk (1.3.3-17ubuntu2) ...
+Setting up mawk (1.3.3-17ubuntu2) ...
+Selecting previously unselected package adduser.
+(Reading database ... 1296 files and directories currently installed.)
+Preparing to unpack .../adduser_3.113+nmu3ubuntu4_all.deb ...
+Unpacking adduser (3.113+nmu3ubuntu4) ...
+Preparing to unpack .../base-files_9.4ubuntu4_amd64.deb ...
+Unpacking base-files (9.4ubuntu4) over (9.4ubuntu4) ...
+Preparing to unpack .../base-passwd_3.5.39_amd64.deb ...
+Unpacking base-passwd (3.5.39) over (3.5.39) ...
+Selecting previously unselected package bash.
+dpkg: regarding .../bash_4.3-14ubuntu1_amd64.deb containing bash, pre-dependency problem:
+ bash pre-depends on dash (>= 0.5.5.1-2.2)
+  dash is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../bash_4.3-14ubuntu1_amd64.deb containing bash, pre-dependency problem:
+ bash pre-depends on libtinfo5
+  libtinfo5 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../bash_4.3-14ubuntu1_amd64.deb ...
+Unpacking bash (4.3-14ubuntu1) ...
+Selecting previously unselected package bsdutils.
+dpkg: regarding .../bsdutils_1%3a2.27.1-6ubuntu3_amd64.deb containing bsdutils, pre-dependency problem:
+ bsdutils pre-depends on libsystemd0
+  libsystemd0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../bsdutils_1%3a2.27.1-6ubuntu3_amd64.deb ...
+Unpacking bsdutils (1:2.27.1-6ubuntu3) ...
+Selecting previously unselected package coreutils.
+dpkg: regarding .../coreutils_8.25-2ubuntu2_amd64.deb containing coreutils, pre-dependency problem:
+ coreutils pre-depends on libacl1 (>= 2.2.51-8)
+  libacl1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../coreutils_8.25-2ubuntu2_amd64.deb containing coreutils, pre-dependency problem:
+ coreutils pre-depends on libattr1 (>= 1:2.4.46-8)
+  libattr1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../coreutils_8.25-2ubuntu2_amd64.deb containing coreutils, pre-dependency problem:
+ coreutils pre-depends on libselinux1 (>= 2.1.13)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../coreutils_8.25-2ubuntu2_amd64.deb ...
+Unpacking coreutils (8.25-2ubuntu2) ...
+Selecting previously unselected package dash.
+Preparing to unpack .../dash_0.5.8-2.1ubuntu2_amd64.deb ...
+Adding 'diversion of /bin/sh to /bin/sh.distrib by dash'
+Adding 'diversion of /usr/share/man/man1/sh.1.gz to /usr/share/man/man1/sh.distrib.1.gz by dash'
+Unpacking dash (0.5.8-2.1ubuntu2) ...
+Selecting previously unselected package debconf.
+Preparing to unpack .../debconf_1.5.58ubuntu1_all.deb ...
+Unpacking debconf (1.5.58ubuntu1) ...
+Selecting previously unselected package debianutils.
+Preparing to unpack .../debianutils_4.7_amd64.deb ...
+Unpacking debianutils (4.7) ...
+Selecting previously unselected package diffutils.
+Preparing to unpack .../diffutils_1%3a3.3-3_amd64.deb ...
+Unpacking diffutils (1:3.3-3) ...
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libbz2-1.0
+  libbz2-1.0 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on liblzma5 (>= 5.1.1alpha+20120614)
+  liblzma5 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on libselinux1 (>= 2.3)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on zlib1g (>= 1:1.1.4)
+  zlib1g is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../dpkg_1.18.4ubuntu1_amd64.deb containing dpkg, pre-dependency problem:
+ dpkg pre-depends on tar (>= 1.23)
+  tar is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../dpkg_1.18.4ubuntu1_amd64.deb ...
+Unpacking dpkg (1.18.4ubuntu1) over (1.18.4ubuntu1) ...
+Selecting previously unselected package e2fslibs:amd64.
+Preparing to unpack .../e2fslibs_1.42.13-1ubuntu1_amd64.deb ...
+Unpacking e2fslibs:amd64 (1.42.13-1ubuntu1) ...
+Selecting previously unselected package e2fsprogs.
+dpkg: regarding .../e2fsprogs_1.42.13-1ubuntu1_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on e2fslibs (= 1.42.13-1ubuntu1)
+  e2fslibs:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.42.13-1ubuntu1_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libblkid1 (>= 2.17.2)
+  libblkid1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.42.13-1ubuntu1_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libcomerr2 (>= 1.42~WIP-2011-10-05-1)
+  libcomerr2 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.42.13-1ubuntu1_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libss2 (>= 1.34-1)
+  libss2 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.42.13-1ubuntu1_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on libuuid1 (>= 2.16)
+  libuuid1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../e2fsprogs_1.42.13-1ubuntu1_amd64.deb containing e2fsprogs, pre-dependency problem:
+ e2fsprogs pre-depends on util-linux (>= 2.15~rc1-1)
+  util-linux is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../e2fsprogs_1.42.13-1ubuntu1_amd64.deb ...
+Unpacking e2fsprogs (1.42.13-1ubuntu1) ...
+Selecting previously unselected package findutils.
+dpkg: regarding .../findutils_4.6.0+git+20160126-2_amd64.deb containing findutils, pre-dependency problem:
+ findutils pre-depends on libselinux1 (>= 1.32)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../findutils_4.6.0+git+20160126-2_amd64.deb ...
+Unpacking findutils (4.6.0+git+20160126-2) ...
+Selecting previously unselected package gcc-6-base:amd64.
+Preparing to unpack .../gcc-6-base_6.0.1-0ubuntu1_amd64.deb ...
+Unpacking gcc-6-base:amd64 (6.0.1-0ubuntu1) ...
+Selecting previously unselected package grep.
+dpkg: regarding .../archives/grep_2.24-1_amd64.deb containing grep, pre-dependency problem:
+ grep pre-depends on libpcre3
+  libpcre3 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../archives/grep_2.24-1_amd64.deb ...
+Unpacking grep (2.24-1) ...
+Selecting previously unselected package gzip.
+Preparing to unpack .../gzip_1.6-4ubuntu1_amd64.deb ...
+Unpacking gzip (1.6-4ubuntu1) ...
+Selecting previously unselected package hostname.
+dpkg: regarding .../hostname_3.16ubuntu2_amd64.deb containing hostname, pre-dependency problem:
+ hostname pre-depends on lsb-base (>= 4.1+Debian11ubuntu7)
+  lsb-base is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../hostname_3.16ubuntu2_amd64.deb ...
+Unpacking hostname (3.16ubuntu2) ...
+Selecting previously unselected package init.
+dpkg: regarding .../init_1.29ubuntu1_amd64.deb containing init, pre-dependency problem:
+ init pre-depends on systemd-sysv | upstart-sysv
+  systemd-sysv is not installed.
+  upstart-sysv is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../init_1.29ubuntu1_amd64.deb ...
+Unpacking init (1.29ubuntu1) ...
+Selecting previously unselected package init-system-helpers.
+Preparing to unpack .../init-system-helpers_1.29ubuntu1_all.deb ...
+Unpacking init-system-helpers (1.29ubuntu1) ...
+Selecting previously unselected package initscripts.
+Preparing to unpack .../initscripts_2.88dsf-59.3ubuntu2_amd64.deb ...
+Unpacking initscripts (2.88dsf-59.3ubuntu2) ...
+Selecting previously unselected package insserv.
+Preparing to unpack .../insserv_1.14.0-5ubuntu3_amd64.deb ...
+Unpacking insserv (1.14.0-5ubuntu3) ...
+Selecting previously unselected package libacl1:amd64.
+Preparing to unpack .../libacl1_2.2.52-3_amd64.deb ...
+Unpacking libacl1:amd64 (2.2.52-3) ...
+Selecting previously unselected package libapparmor1:amd64.
+Preparing to unpack .../libapparmor1_2.10.95-0ubuntu2_amd64.deb ...
+Unpacking libapparmor1:amd64 (2.10.95-0ubuntu2) ...
+Selecting previously unselected package libattr1:amd64.
+dpkg: regarding .../libattr1_1%3a2.4.47-2_amd64.deb containing libattr1:amd64, pre-dependency problem:
+ libattr1 pre-depends on multiarch-support
+  multiarch-support is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../libattr1_1%3a2.4.47-2_amd64.deb ...
+Unpacking libattr1:amd64 (1:2.4.47-2) ...
+Selecting previously unselected package libaudit-common.
+Preparing to unpack .../libaudit-common_1%3a2.4.5-1ubuntu2_all.deb ...
+Unpacking libaudit-common (1:2.4.5-1ubuntu2) ...
+Selecting previously unselected package libaudit1:amd64.
+Preparing to unpack .../libaudit1_1%3a2.4.5-1ubuntu2_amd64.deb ...
+Unpacking libaudit1:amd64 (1:2.4.5-1ubuntu2) ...
+Selecting previously unselected package libblkid1:amd64.
+Preparing to unpack .../libblkid1_2.27.1-6ubuntu3_amd64.deb ...
+Unpacking libblkid1:amd64 (2.27.1-6ubuntu3) ...
+Selecting previously unselected package libbz2-1.0:amd64.
+Preparing to unpack .../libbz2-1.0_1.0.6-8_amd64.deb ...
+Unpacking libbz2-1.0:amd64 (1.0.6-8) ...
+Selecting previously unselected package libc-bin.
+Preparing to unpack .../libc-bin_2.23-0ubuntu3_amd64.deb ...
+Unpacking libc-bin (2.23-0ubuntu3) ...
+Preparing to unpack .../libc6_2.23-0ubuntu3_amd64.deb ...
+Unpacking libc6:amd64 (2.23-0ubuntu3) over (2.23-0ubuntu3) ...
+Selecting previously unselected package libcap2:amd64.
+Preparing to unpack .../libcap2_1%3a2.24-12_amd64.deb ...
+Unpacking libcap2:amd64 (1:2.24-12) ...
+Selecting previously unselected package libcap2-bin.
+Preparing to unpack .../libcap2-bin_1%3a2.24-12_amd64.deb ...
+Unpacking libcap2-bin (1:2.24-12) ...
+Selecting previously unselected package libcomerr2:amd64.
+Preparing to unpack .../libcomerr2_1.42.13-1ubuntu1_amd64.deb ...
+Unpacking libcomerr2:amd64 (1.42.13-1ubuntu1) ...
+Selecting previously unselected package libcryptsetup4:amd64.
+Preparing to unpack .../libcryptsetup4_2%3a1.6.6-5ubuntu2_amd64.deb ...
+Unpacking libcryptsetup4:amd64 (2:1.6.6-5ubuntu2) ...
+Selecting previously unselected package libdb5.3:amd64.
+Preparing to unpack .../libdb5.3_5.3.28-11_amd64.deb ...
+Unpacking libdb5.3:amd64 (5.3.28-11) ...
+Selecting previously unselected package libdebconfclient0:amd64.
+Preparing to unpack .../libdebconfclient0_0.198ubuntu1_amd64.deb ...
+Unpacking libdebconfclient0:amd64 (0.198ubuntu1) ...
+Selecting previously unselected package libdevmapper1.02.1:amd64.
+Preparing to unpack .../libdevmapper1.02.1_2%3a1.02.110-1ubuntu10_amd64.deb ...
+Unpacking libdevmapper1.02.1:amd64 (2:1.02.110-1ubuntu10) ...
+Selecting previously unselected package libfdisk1:amd64.
+Preparing to unpack .../libfdisk1_2.27.1-6ubuntu3_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.27.1-6ubuntu3) ...
+Selecting previously unselected package libgcc1:amd64.
+Preparing to unpack .../libgcc1_1%3a6.0.1-0ubuntu1_amd64.deb ...
+Unpacking libgcc1:amd64 (1:6.0.1-0ubuntu1) ...
+Selecting previously unselected package libgcrypt20:amd64.
+Preparing to unpack .../libgcrypt20_1.6.5-2_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.6.5-2) ...
+Selecting previously unselected package libgpg-error0:amd64.
+Preparing to unpack .../libgpg-error0_1.21-2ubuntu1_amd64.deb ...
+Unpacking libgpg-error0:amd64 (1.21-2ubuntu1) ...
+Selecting previously unselected package libkmod2:amd64.
+Preparing to unpack .../libkmod2_22-1ubuntu4_amd64.deb ...
+Unpacking libkmod2:amd64 (22-1ubuntu4) ...
+Selecting previously unselected package liblzma5:amd64.
+dpkg: regarding .../liblzma5_5.1.1alpha+20120614-2ubuntu2_amd64.deb containing liblzma5:amd64, pre-dependency problem:
+ liblzma5 pre-depends on multiarch-support
+  multiarch-support is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../liblzma5_5.1.1alpha+20120614-2ubuntu2_amd64.deb ...
+Unpacking liblzma5:amd64 (5.1.1alpha+20120614-2ubuntu2) ...
+Selecting previously unselected package libmount1:amd64.
+Preparing to unpack .../libmount1_2.27.1-6ubuntu3_amd64.deb ...
+Unpacking libmount1:amd64 (2.27.1-6ubuntu3) ...
+Selecting previously unselected package libncurses5:amd64.
+Preparing to unpack .../libncurses5_6.0+20160213-1ubuntu1_amd64.deb ...
+Unpacking libncurses5:amd64 (6.0+20160213-1ubuntu1) ...
+Selecting previously unselected package libncursesw5:amd64.
+Preparing to unpack .../libncursesw5_6.0+20160213-1ubuntu1_amd64.deb ...
+Unpacking libncursesw5:amd64 (6.0+20160213-1ubuntu1) ...
+Selecting previously unselected package libpam-modules:amd64.
+dpkg: regarding .../libpam-modules_1.1.8-3.2ubuntu2_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libaudit1 (>= 1:2.2.1)
+  libaudit1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.1.8-3.2ubuntu2_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libdb5.3
+  libdb5.3:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.1.8-3.2ubuntu2_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libpam0g (>= 1.1.3-2)
+  libpam0g is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.1.8-3.2ubuntu2_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libselinux1 (>= 2.1.9)
+  libselinux1 is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.1.8-3.2ubuntu2_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on debconf (>= 0.5) | debconf-2.0
+  debconf is unpacked, but has never been configured.
+  debconf provides debconf-2.0 but is unpacked but not configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libpam-modules_1.1.8-3.2ubuntu2_amd64.deb containing libpam-modules:amd64, pre-dependency problem:
+ libpam-modules pre-depends on libpam-modules-bin (= 1.1.8-3.2ubuntu2)
+  libpam-modules-bin is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../libpam-modules_1.1.8-3.2ubuntu2_amd64.deb ...
+Unpacking libpam-modules:amd64 (1.1.8-3.2ubuntu2) ...
+Selecting previously unselected package libpam-modules-bin.
+Preparing to unpack .../libpam-modules-bin_1.1.8-3.2ubuntu2_amd64.deb ...
+Unpacking libpam-modules-bin (1.1.8-3.2ubuntu2) ...
+Selecting previously unselected package libpam-runtime.
+Preparing to unpack .../libpam-runtime_1.1.8-3.2ubuntu2_all.deb ...
+Unpacking libpam-runtime (1.1.8-3.2ubuntu2) ...
+Selecting previously unselected package libpam0g:amd64.
+Preparing to unpack .../libpam0g_1.1.8-3.2ubuntu2_amd64.deb ...
+Unpacking libpam0g:amd64 (1.1.8-3.2ubuntu2) ...
+Selecting previously unselected package libpcre3:amd64.
+dpkg: regarding .../libpcre3_2%3a8.38-3.1_amd64.deb containing libpcre3:amd64, pre-dependency problem:
+ libpcre3 pre-depends on multiarch-support
+  multiarch-support is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../libpcre3_2%3a8.38-3.1_amd64.deb ...
+Unpacking libpcre3:amd64 (2:8.38-3.1) ...
+Selecting previously unselected package libprocps4:amd64.
+Preparing to unpack .../libprocps4_2%3a3.3.10-4ubuntu2_amd64.deb ...
+Unpacking libprocps4:amd64 (2:3.3.10-4ubuntu2) ...
+Selecting previously unselected package libseccomp2:amd64.
+Preparing to unpack .../libseccomp2_2.2.3-3ubuntu3_amd64.deb ...
+Unpacking libseccomp2:amd64 (2.2.3-3ubuntu3) ...
+Selecting previously unselected package libselinux1:amd64.
+Preparing to unpack .../libselinux1_2.4-3build2_amd64.deb ...
+Unpacking libselinux1:amd64 (2.4-3build2) ...
+Selecting previously unselected package libsemanage-common.
+Preparing to unpack .../libsemanage-common_2.3-1build3_all.deb ...
+Unpacking libsemanage-common (2.3-1build3) ...
+Selecting previously unselected package libsemanage1:amd64.
+Preparing to unpack .../libsemanage1_2.3-1build3_amd64.deb ...
+Unpacking libsemanage1:amd64 (2.3-1build3) ...
+Selecting previously unselected package libsepol1:amd64.
+Preparing to unpack .../libsepol1_2.4-2_amd64.deb ...
+Unpacking libsepol1:amd64 (2.4-2) ...
+Selecting previously unselected package libsmartcols1:amd64.
+Preparing to unpack .../libsmartcols1_2.27.1-6ubuntu3_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.27.1-6ubuntu3) ...
+Selecting previously unselected package libss2:amd64.
+Preparing to unpack .../libss2_1.42.13-1ubuntu1_amd64.deb ...
+Unpacking libss2:amd64 (1.42.13-1ubuntu1) ...
+Selecting previously unselected package libsystemd0:amd64.
+dpkg: regarding .../libsystemd0_229-4ubuntu4_amd64.deb containing libsystemd0:amd64, pre-dependency problem:
+ libsystemd0 pre-depends on libgcrypt20 (>= 1.6.1)
+  libgcrypt20:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libsystemd0_229-4ubuntu4_amd64.deb containing libsystemd0:amd64, pre-dependency problem:
+ libsystemd0 pre-depends on liblzma5 (>= 5.1.1alpha+20120614)
+  liblzma5:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../libsystemd0_229-4ubuntu4_amd64.deb containing libsystemd0:amd64, pre-dependency problem:
+ libsystemd0 pre-depends on libselinux1 (>= 1.32)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../libsystemd0_229-4ubuntu4_amd64.deb ...
+Unpacking libsystemd0:amd64 (229-4ubuntu4) ...
+Selecting previously unselected package libtinfo5:amd64.
+Preparing to unpack .../libtinfo5_6.0+20160213-1ubuntu1_amd64.deb ...
+Unpacking libtinfo5:amd64 (6.0+20160213-1ubuntu1) ...
+Selecting previously unselected package libudev1:amd64.
+Preparing to unpack .../libudev1_229-4ubuntu4_amd64.deb ...
+Unpacking libudev1:amd64 (229-4ubuntu4) ...
+Selecting previously unselected package libustr-1.0-1:amd64.
+Preparing to unpack .../libustr-1.0-1_1.0.4-5_amd64.deb ...
+Unpacking libustr-1.0-1:amd64 (1.0.4-5) ...
+Selecting previously unselected package libuuid1:amd64.
+Preparing to unpack .../libuuid1_2.27.1-6ubuntu3_amd64.deb ...
+Unpacking libuuid1:amd64 (2.27.1-6ubuntu3) ...
+Selecting previously unselected package locales.
+Preparing to unpack .../locales_2.23-0ubuntu3_all.deb ...
+Unpacking locales (2.23-0ubuntu3) ...
+Selecting previously unselected package login.
+dpkg: regarding .../login_1%3a4.2-3.1ubuntu5_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libaudit1 (>= 1:2.2.1)
+  libaudit1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../login_1%3a4.2-3.1ubuntu5_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libpam0g (>= 0.99.7.1)
+  libpam0g:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../login_1%3a4.2-3.1ubuntu5_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libpam-runtime
+  libpam-runtime is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../login_1%3a4.2-3.1ubuntu5_amd64.deb containing login, pre-dependency problem:
+ login pre-depends on libpam-modules (>= 1.1.8-1)
+  libpam-modules:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../login_1%3a4.2-3.1ubuntu5_amd64.deb ...
+Unpacking login (1:4.2-3.1ubuntu5) ...
+Selecting previously unselected package lsb-base.
+Preparing to unpack .../lsb-base_9.20160110_all.deb ...
+Unpacking lsb-base (9.20160110) ...
+Selecting previously unselected package makedev.
+Preparing to unpack .../makedev_2.3.1-93ubuntu1_all.deb ...
+Unpacking makedev (2.3.1-93ubuntu1) ...
+Preparing to unpack .../mawk_1.3.3-17ubuntu2_amd64.deb ...
+Unpacking mawk (1.3.3-17ubuntu2) over (1.3.3-17ubuntu2) ...
+Selecting previously unselected package mount.
+dpkg: regarding .../mount_2.27.1-6ubuntu3_amd64.deb containing mount, pre-dependency problem:
+ mount pre-depends on libblkid1 (>= 2.17.2)
+  libblkid1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../mount_2.27.1-6ubuntu3_amd64.deb containing mount, pre-dependency problem:
+ mount pre-depends on libmount1 (>= 2.25)
+  libmount1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../mount_2.27.1-6ubuntu3_amd64.deb containing mount, pre-dependency problem:
+ mount pre-depends on libsmartcols1 (>= 2.27~rc1)
+  libsmartcols1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../mount_2.27.1-6ubuntu3_amd64.deb containing mount, pre-dependency problem:
+ mount pre-depends on libudev1 (>= 183)
+  libudev1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../mount_2.27.1-6ubuntu3_amd64.deb ...
+Unpacking mount (2.27.1-6ubuntu3) ...
+Selecting previously unselected package multiarch-support.
+Preparing to unpack .../multiarch-support_2.23-0ubuntu3_amd64.deb ...
+Unpacking multiarch-support (2.23-0ubuntu3) ...
+Selecting previously unselected package ncurses-base.
+Preparing to unpack .../ncurses-base_6.0+20160213-1ubuntu1_all.deb ...
+Unpacking ncurses-base (6.0+20160213-1ubuntu1) ...
+Selecting previously unselected package ncurses-bin.
+dpkg: regarding .../ncurses-bin_6.0+20160213-1ubuntu1_amd64.deb containing ncurses-bin, pre-dependency problem:
+ ncurses-bin pre-depends on libtinfo5 (>= 6.0+20151017)
+  libtinfo5:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../ncurses-bin_6.0+20160213-1ubuntu1_amd64.deb containing ncurses-bin, pre-dependency problem:
+ ncurses-bin pre-depends on libtinfo5 (<< 6.1~)
+  libtinfo5:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../ncurses-bin_6.0+20160213-1ubuntu1_amd64.deb ...
+Unpacking ncurses-bin (6.0+20160213-1ubuntu1) ...
+Selecting previously unselected package passwd.
+Preparing to unpack .../passwd_1%3a4.2-3.1ubuntu5_amd64.deb ...
+Unpacking passwd (1:4.2-3.1ubuntu5) ...
+Preparing to unpack .../perl-base_5.22.1-9_amd64.deb ...
+Unpacking perl-base (5.22.1-9) over (5.22.1-9) ...
+Selecting previously unselected package procps.
+Preparing to unpack .../procps_2%3a3.3.10-4ubuntu2_amd64.deb ...
+Unpacking procps (2:3.3.10-4ubuntu2) ...
+Selecting previously unselected package sed.
+dpkg: regarding .../archives/sed_4.2.2-7_amd64.deb containing sed, pre-dependency problem:
+ sed pre-depends on libselinux1 (>= 1.32)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../archives/sed_4.2.2-7_amd64.deb ...
+Unpacking sed (4.2.2-7) ...
+Selecting previously unselected package sensible-utils.
+Preparing to unpack .../sensible-utils_0.0.9_all.deb ...
+Unpacking sensible-utils (0.0.9) ...
+Selecting previously unselected package systemd.
+dpkg: regarding .../systemd_229-4ubuntu4_amd64.deb containing systemd, pre-dependency problem:
+ systemd pre-depends on libgcrypt20 (>= 1.6.1)
+  libgcrypt20:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../systemd_229-4ubuntu4_amd64.deb containing systemd, pre-dependency problem:
+ systemd pre-depends on liblzma5 (>= 5.1.1alpha+20120614)
+  liblzma5:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../systemd_229-4ubuntu4_amd64.deb containing systemd, pre-dependency problem:
+ systemd pre-depends on libselinux1 (>= 1.32)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../systemd_229-4ubuntu4_amd64.deb ...
+Unpacking systemd (229-4ubuntu4) ...
+Selecting previously unselected package systemd-sysv.
+dpkg: regarding .../systemd-sysv_229-4ubuntu4_amd64.deb containing systemd-sysv, pre-dependency problem:
+ systemd-sysv pre-depends on systemd
+  systemd is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../systemd-sysv_229-4ubuntu4_amd64.deb ...
+Unpacking systemd-sysv (229-4ubuntu4) ...
+Selecting previously unselected package sysv-rc.
+dpkg: regarding .../sysv-rc_2.88dsf-59.3ubuntu2_all.deb containing sysv-rc, pre-dependency problem:
+ sysv-rc pre-depends on init-system-helpers (>= 1.25~)
+  init-system-helpers is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../sysv-rc_2.88dsf-59.3ubuntu2_all.deb ...
+Unpacking sysv-rc (2.88dsf-59.3ubuntu2) ...
+Selecting previously unselected package sysvinit-utils.
+Preparing to unpack .../sysvinit-utils_2.88dsf-59.3ubuntu2_amd64.deb ...
+Unpacking sysvinit-utils (2.88dsf-59.3ubuntu2) ...
+Selecting previously unselected package tar.
+dpkg: regarding .../tar_1.28-2.1_amd64.deb containing tar, pre-dependency problem:
+ tar pre-depends on libacl1 (>= 2.2.51-8)
+  libacl1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../tar_1.28-2.1_amd64.deb containing tar, pre-dependency problem:
+ tar pre-depends on libselinux1 (>= 1.32)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../tar_1.28-2.1_amd64.deb ...
+Unpacking tar (1.28-2.1) ...
+Selecting previously unselected package tzdata.
+Preparing to unpack .../tzdata_2016d-0ubuntu0.16.04_all.deb ...
+Unpacking tzdata (2016d-0ubuntu0.16.04) ...
+Selecting previously unselected package util-linux.
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libblkid1 (>= 2.25)
+  libblkid1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libfdisk1 (>= 2.27~rc1)
+  libfdisk1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libmount1 (>= 2.25)
+  libmount1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libncursesw5 (>= 6)
+  libncursesw5:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libpam0g (>= 0.99.7.1)
+  libpam0g:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libselinux1 (>= 1.32)
+  libselinux1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libsmartcols1 (>= 2.27~rc1)
+  libsmartcols1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libsystemd0
+  libsystemd0:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libtinfo5 (>= 6)
+  libtinfo5:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libudev1 (>= 183)
+  libudev1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on libuuid1 (>= 2.16)
+  libuuid1:amd64 is unpacked, but has never been configured.
+
+dpkg: warning: ignoring pre-dependency problem!
+dpkg: regarding .../util-linux_2.27.1-6ubuntu3_amd64.deb containing util-linux, pre-dependency problem:
+ util-linux pre-depends on zlib1g (>= 1:1.1.4)
+  zlib1g is not installed.
+
+dpkg: warning: ignoring pre-dependency problem!
+Preparing to unpack .../util-linux_2.27.1-6ubuntu3_amd64.deb ...
+Unpacking util-linux (2.27.1-6ubuntu3) ...
+Selecting previously unselected package zlib1g:amd64.
+Preparing to unpack .../zlib1g_1%3a1.2.8.dfsg-2ubuntu4_amd64.deb ...
+Unpacking zlib1g:amd64 (1:1.2.8.dfsg-2ubuntu4) ...
+Setting up gcc-6-base:amd64 (6.0.1-0ubuntu1) ...
+Setting up lsb-base (9.20160110) ...
+Setting up sensible-utils (0.0.9) ...
+Setting up ncurses-base (6.0+20160213-1ubuntu1) ...
+Setting up libsemanage-common (2.3-1build3) ...
+Setting up libaudit-common (1:2.4.5-1ubuntu2) ...
+Setting up libc6:amd64 (2.23-0ubuntu3) ...
+Setting up libbz2-1.0:amd64 (1.0.6-8) ...
+Setting up libkmod2:amd64 (22-1ubuntu4) ...
+Setting up libgpg-error0:amd64 (1.21-2ubuntu1) ...
+Setting up libc-bin (2.23-0ubuntu3) ...
+Setting up libseccomp2:amd64 (2.2.3-3ubuntu3) ...
+Setting up libapparmor1:amd64 (2.10.95-0ubuntu2) ...
+Setting up libdebconfclient0:amd64 (0.198ubuntu1) ...
+Setting up diffutils (1:3.3-3) ...
+Setting up insserv (1.14.0-5ubuntu3) ...
+Setting up libcomerr2:amd64 (1.42.13-1ubuntu1) ...
+Setting up libsepol1:amd64 (2.4-2) ...
+Setting up libgcc1:amd64 (1:6.0.1-0ubuntu1) ...
+Setting up libustr-1.0-1:amd64 (1.0.4-5) ...
+Setting up libsmartcols1:amd64 (2.27.1-6ubuntu3) ...
+Setting up libaudit1:amd64 (1:2.4.5-1ubuntu2) ...
+Setting up libtinfo5:amd64 (6.0+20160213-1ubuntu1) ...
+Setting up libudev1:amd64 (229-4ubuntu4) ...
+Setting up libss2:amd64 (1.42.13-1ubuntu1) ...
+Setting up base-passwd (3.5.39) ...
+Setting up e2fslibs:amd64 (1.42.13-1ubuntu1) ...
+Setting up debianutils (4.7) ...
+Setting up libgcrypt20:amd64 (1.6.5-2) ...
+Setting up libncursesw5:amd64 (6.0+20160213-1ubuntu1) ...
+Setting up libdb5.3:amd64 (5.3.28-11) ...
+Setting up zlib1g:amd64 (1:1.2.8.dfsg-2ubuntu4) ...
+Setting up hostname (3.16ubuntu2) ...
+Setting up multiarch-support (2.23-0ubuntu3) ...
+Setting up mawk (1.3.3-17ubuntu2) ...
+Setting up libcap2:amd64 (1:2.24-12) ...
+Setting up libpcre3:amd64 (2:8.38-3.1) ...
+Setting up base-files (9.4ubuntu4) ...
+Setting up libselinux1:amd64 (2.4-3build2) ...
+Setting up findutils (4.6.0+git+20160126-2) ...
+Setting up ncurses-bin (6.0+20160213-1ubuntu1) ...
+Setting up libncurses5:amd64 (6.0+20160213-1ubuntu1) ...
+Setting up makedev (2.3.1-93ubuntu1) ...
+Setting up libattr1:amd64 (1:2.4.47-2) ...
+Setting up liblzma5:amd64 (5.1.1alpha+20120614-2ubuntu2) ...
+Setting up libcap2-bin (1:2.24-12) ...
+Setting up libsystemd0:amd64 (229-4ubuntu4) ...
+Setting up libdevmapper1.02.1:amd64 (2:1.02.110-1ubuntu10) ...
+Setting up libsemanage1:amd64 (2.3-1build3) ...
+Setting up libacl1:amd64 (2.2.52-3) ...
+Setting up libprocps4:amd64 (2:3.3.10-4ubuntu2) ...
+Setting up bsdutils (1:2.27.1-6ubuntu3) ...
+Setting up coreutils (8.25-2ubuntu2) ...
+Setting up tar (1.28-2.1) ...
+update-alternatives: using /usr/sbin/rmt-tar to provide /usr/sbin/rmt (rmt) in auto mode
+Setting up dpkg (1.18.4ubuntu1) ...
+Setting up sed (4.2.2-7) ...
+Setting up perl-base (5.22.1-9) ...
+Setting up grep (2.24-1) ...
+Setting up debconf (1.5.58ubuntu1) ...
+Setting up tzdata (2016d-0ubuntu0.16.04) ...
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Sat Apr  6 11:22:15 UTC 2019.
+Universal Time is now:  Sat Apr  6 11:22:15 UTC 2019.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up gzip (1.6-4ubuntu1) ...
+Setting up dash (0.5.8-2.1ubuntu2) ...
+Setting up init-system-helpers (1.29ubuntu1) ...
+Setting up sysvinit-utils (2.88dsf-59.3ubuntu2) ...
+Setting up sysv-rc (2.88dsf-59.3ubuntu2) ...
+Setting up libpam0g:amd64 (1.1.8-3.2ubuntu2) ...
+Setting up locales (2.23-0ubuntu3) ...
+Generating locales (this might take a while)...
+Generation complete.
+Setting up libpam-modules-bin (1.1.8-3.2ubuntu2) ...
+Setting up bash (4.3-14ubuntu1) ...
+update-alternatives: using /usr/share/man/man7/bash-builtins.7.gz to provide /usr/share/man/man7/builtins.7.gz (builtins.7.gz) in auto mode
+Setting up libpam-modules:amd64 (1.1.8-3.2ubuntu2) ...
+Setting up libpam-runtime (1.1.8-3.2ubuntu2) ...
+Setting up passwd (1:4.2-3.1ubuntu5) ...
+Shadow passwords are now on.
+Setting up login (1:4.2-3.1ubuntu5) ...
+Setting up adduser (3.113+nmu3ubuntu4) ...
+Setting up libuuid1:amd64 (2.27.1-6ubuntu3) ...
+Setting up libblkid1:amd64 (2.27.1-6ubuntu3) ...
+Setting up libmount1:amd64 (2.27.1-6ubuntu3) ...
+Setting up libcryptsetup4:amd64 (2:1.6.6-5ubuntu2) ...
+Setting up mount (2.27.1-6ubuntu3) ...
+Setting up libfdisk1:amd64 (2.27.1-6ubuntu3) ...
+Setting up initscripts (2.88dsf-59.3ubuntu2) ...
+Running in chroot, ignoring request.
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up util-linux (2.27.1-6ubuntu3) ...
+update-alternatives: using /bin/more to provide /usr/bin/pager (pager) in auto mode
+Setting up e2fsprogs (1.42.13-1ubuntu1) ...
+Setting up procps (2:3.3.10-4ubuntu2) ...
+update-alternatives: using /usr/bin/w.procps to provide /usr/bin/w (w) in auto mode
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Running in chroot, ignoring request.
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up systemd (229-4ubuntu4) ...
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service, pointing to /lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target, pointing to /lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service, pointing to /lib/systemd/system/systemd-timesyncd.service.
+Initializing machine ID from random generator.
+Adding group `systemd-journal' (GID 101) ...
+Done.
+Setting up systemd-sysv (229-4ubuntu4) ...
+Setting up init (1.29ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+(Reading database ... 6891 files and directories currently installed.)
+Preparing to unpack .../apt_1.2.10ubuntu1_amd64.deb ...
+Unpacking apt (1.2.10ubuntu1) ...
+Preparing to unpack .../gcc-5-base_5.3.1-14ubuntu2_amd64.deb ...
+Unpacking gcc-5-base:amd64 (5.3.1-14ubuntu2) ...
+Preparing to unpack .../gnupg_1.4.20-1ubuntu3_amd64.deb ...
+Unpacking gnupg (1.4.20-1ubuntu3) ...
+Preparing to unpack .../gpgv_1.4.20-1ubuntu3_amd64.deb ...
+Unpacking gpgv (1.4.20-1ubuntu3) ...
+Preparing to unpack .../libapt-pkg5.0_1.2.10ubuntu1_amd64.deb ...
+Unpacking libapt-pkg5.0:amd64 (1.2.10ubuntu1) ...
+Preparing to unpack .../liblz4-1_0.0~r131-2ubuntu2_amd64.deb ...
+Unpacking liblz4-1:amd64 (0.0~r131-2ubuntu2) ...
+Preparing to unpack .../libreadline6_6.3-8ubuntu2_amd64.deb ...
+Unpacking libreadline6:amd64 (6.3-8ubuntu2) ...
+Preparing to unpack .../libstdc++6_5.3.1-14ubuntu2_amd64.deb ...
+Unpacking libstdc++6:amd64 (5.3.1-14ubuntu2) ...
+Preparing to unpack .../libusb-0.1-4_2%3a0.1.12-28_amd64.deb ...
+Unpacking libusb-0.1-4:amd64 (2:0.1.12-28) ...
+Preparing to unpack .../readline-common_6.3-8ubuntu2_all.deb ...
+Unpacking readline-common (6.3-8ubuntu2) ...
+Preparing to unpack .../ubuntu-keyring_2012.05.19_all.deb ...
+Unpacking ubuntu-keyring (2012.05.19) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+Setting up readline-common (6.3-8ubuntu2) ...
+Setting up liblz4-1:amd64 (0.0~r131-2ubuntu2) ...
+Setting up gpgv (1.4.20-1ubuntu3) ...
+Setting up libusb-0.1-4:amd64 (2:0.1.12-28) ...
+Setting up ubuntu-keyring (2012.05.19) ...
+Setting up libreadline6:amd64 (6.3-8ubuntu2) ...
+Setting up gcc-5-base:amd64 (5.3.1-14ubuntu2) ...
+Setting up gnupg (1.4.20-1ubuntu3) ...
+Setting up libstdc++6:amd64 (5.3.1-14ubuntu2) ...
+Setting up libapt-pkg5.0:amd64 (1.2.10ubuntu1) ...
+Setting up apt (1.2.10ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...

@@ -1,0 +1,5 @@
+TARGETS = killprocs dbus single rc.local ondemand
+INTERACTIVE =
+single: killprocs
+rc.local: dbus
+ondemand: dbus
