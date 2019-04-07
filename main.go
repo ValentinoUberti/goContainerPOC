@@ -31,10 +31,10 @@ These files will be mounted in the container root
 */
 
 const (
-	rootfs            = "/home/vale/Documents/goContainerPOC/rootfs/quux" //Change this according to your directory
-	containerHostname = "container"                                       //Container host name, change if you want
-	cgroupsDirectory  = "/sys/fs/cgroup"                                  //Host cgroup directory
-	pidsDirectory     = "vale"
+	rootfs            = "/home/gbsalinetti/go/src/github.com/giannisalinetti/goContainerPOC/rootfs/quux" //Change this according to your directory
+	containerHostname = "demo"                                                                           //Container host name, change if you want
+	cgroupsDirectory  = "/sys/fs/cgroup"                                                                 //Host cgroup directory
+	pidsDirectory     = "container"
 )
 
 /*
@@ -72,14 +72,15 @@ func run() {
 		Unshareflags: syscall.CLONE_NEWNS,
 	}
 
-	must(cmd.Run())
+	errorHandler(cmd.Run())
+	defer errorHandler(cgDestroy())
 
 }
 
 func child() {
 	log.Printf("Running %v in containerized child\n", os.Args[2:])
 
-	cg()
+	errorHandler(cgInit())
 
 	cmd := exec.Command(os.Args[2], os.Args[3:]...)
 	cmd.Stdin = os.Stdin
@@ -87,38 +88,72 @@ func child() {
 	cmd.Stderr = os.Stderr
 
 	log.Println("Setting container hostname")
-	must(syscall.Sethostname([]byte(containerHostname)))
+	errorHandler(syscall.Sethostname([]byte(containerHostname)))
 	log.Println("Changing container root directory")
-	must(syscall.Chroot(rootfs))
-	must(os.Chdir("/"))
+	errorHandler(syscall.Chroot(rootfs))
+	errorHandler(os.Chdir("/"))
 
 	log.Println("Mounting container proc filesystem")
-	must(syscall.Mount("proc", "proc", "proc", 0, ""))
+	errorHandler(syscall.Mount("proc", "proc", "proc", 0, ""))
 
-	must(cmd.Run())
+	errorHandler(cmd.Run())
 
-	must(syscall.Unmount("proc", 0))
+	errorHandler(syscall.Unmount("proc", 0))
 
 }
 
-func cg() {
-
+func cgInit() error {
 	cgroups := cgroupsDirectory
 	pids := filepath.Join(cgroups, "pids")
+
 	//Create pids directory on host
-	os.Mkdir(filepath.Join(pids, pidsDirectory), 0755)
+	err := os.Mkdir(filepath.Join(pids, pidsDirectory), 0755)
+	if err != nil {
+		return err
+	}
+
 	//Set max number of process for this container
-	must(ioutil.WriteFile(filepath.Join(pids, pidsDirectory+"/pids.max"), []byte("20"), 0700))
+	err = ioutil.WriteFile(filepath.Join(pids, pidsDirectory+"/pids.max"), []byte("20"), 0700)
+	if err != nil {
+		return err
+	}
 
 	// Removes the new cgroup in place after the container exits
-	must(ioutil.WriteFile(filepath.Join(pids, pidsDirectory+"/notify_on_release"), []byte("1"), 0700))
-	must(ioutil.WriteFile(filepath.Join(pids, pidsDirectory+"/cgroup.procs"), []byte(strconv.Itoa(os.Getpid())), 0700))
+	err = ioutil.WriteFile(filepath.Join(pids, pidsDirectory+"/notify_on_release"), []byte("1"), 0700)
+	if err != nil {
+		return err
+	}
+
+	// Populate the procs list for the namespace
+	err = ioutil.WriteFile(filepath.Join(pids, pidsDirectory+"/cgroup.procs"), []byte(strconv.Itoa(os.Getpid())), 0700)
+	if err != nil {
+		return err
+	}
+
 	log.Println("Finished cgroups creation")
+
+	return nil
 }
 
-//Error checking, panic on error
-func must(err error) {
+func cgDestroy() error {
+	cgroups := cgroupsDirectory
+	pids := filepath.Join(cgroups, "pids")
+	containerPids := filepath.Join(pids, pidsDirectory)
+	_, err := os.Stat(containerPids)
 	if err != nil {
-		panic(err)
+		return err
+	} else {
+		err := os.RemoveAll(containerPids)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+//errorHandler manages errors by printing log.Fatal messages and exiting
+func errorHandler(err error) {
+	if err != nil {
+		log.Fatal(err)
 	}
 }
