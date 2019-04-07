@@ -30,6 +30,7 @@ These files will be mounted in the container root
 */
 
 const (
+	// TODO: manage the root directory with an environment variable or a flag
 	rootfs            = "/home/gbsalinetti/go/src/github.com/giannisalinetti/goContainerPOC/rootfs/quux" //Change this according to your directory
 	containerHostname = "demo"                                                                           //Container host name, change if you want
 	cgroupsDirectory  = "/sys/fs/cgroup"                                                                 //Host cgroup directory
@@ -57,6 +58,7 @@ func main() {
 	}
 }
 
+// run executed the main same process with the "child" argument
 func run() {
 	log.Printf("Creating child process with kernel namespaces for running %v \n", os.Args[2:])
 
@@ -83,6 +85,7 @@ func run() {
 
 }
 
+// child runs the containerized process in the previuosly isolated namespaces
 func child() {
 	log.Printf("Running %v in containerized child\n", os.Args[2:])
 
@@ -99,6 +102,8 @@ func child() {
 	errorHandler(syscall.Chroot(rootfs))
 	errorHandler(os.Chdir("/"))
 
+	// Mounting the proc filesystem is necessary to access the processes
+	// data
 	log.Println("Mounting container proc filesystem")
 	errorHandler(syscall.Mount("proc", "proc", "proc", 0, ""))
 
