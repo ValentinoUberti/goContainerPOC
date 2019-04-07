@@ -83,6 +83,10 @@ func run() {
 	errorHandler(cmd.Run())
 	defer errorHandler(cgDestroy())
 
+	// This log message shows exactly when the child process returns to the
+	// parent
+	log.Println("Container exited")
+
 }
 
 // child runs the containerized process in the previuosly isolated namespaces
@@ -106,10 +110,9 @@ func child() {
 	// data
 	log.Println("Mounting container proc filesystem")
 	errorHandler(syscall.Mount("proc", "proc", "proc", 0, ""))
+	defer errorHandler(syscall.Unmount("proc", 0))
 
 	errorHandler(cmd.Run())
-
-	errorHandler(syscall.Unmount("proc", 0))
 
 }
 
