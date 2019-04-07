@@ -24,7 +24,6 @@ if you want to build rootfs use mkosi tool:
 
 -- build on ubuntu 18-04 with:
    sudo mkosi -d ubuntu -t directory -o quux -r xenial
-
 These files are avaible under rootfs/quux if you have some issue with mkosi
 Remeber to fix this path with yours!
 These files will be mounted in the container root
@@ -68,7 +67,14 @@ func run() {
 	cmd.Stderr = os.Stderr
 
 	cmd.SysProcAttr = &syscall.SysProcAttr{
-		Cloneflags:   syscall.CLONE_NEWUTS | syscall.CLONE_NEWPID | syscall.CLONE_NEWNS,
+		Cloneflags: syscall.CLONE_NEWUTS | syscall.CLONE_NEWPID | syscall.CLONE_NEWNS,
+		// Setting the Unshareflags to CLONE_NEWNS here is a workaround to hide
+		// the container mounts to the host. This happens since systemd forces
+		// all mount namespaces to be shared. The only workaround was to remount
+		// internally with MS_PRIVATE flag. The workaround was implemented in
+		// Go 1.9 and remounts with MS_REC|MS_PRIVATE when the unshare flag
+		// CLONE_NEWNS is set. For more details see the following thread:
+		// https://go-review.googlesource.com/c/go/+/38471
 		Unshareflags: syscall.CLONE_NEWNS,
 	}
 
