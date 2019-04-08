@@ -110,9 +110,10 @@ func child() {
 	// data
 	log.Println("Mounting container proc filesystem")
 	errorHandler(syscall.Mount("proc", "proc", "proc", 0, ""))
-	defer errorHandler(syscall.Unmount("proc", 0))
 
 	errorHandler(cmd.Run())
+
+	errorHandler(syscall.Unmount("proc", 0))
 
 }
 
